@@ -1,4 +1,11 @@
-.nav-ul {
+nav{
+    margin-right: auto;
+    margin-left: auto;
+    width:671px;
+    z-index:1;
+    font-family: "Montserrat", sans-serif;
+}
+nav-ul {
     background-color: #EC4C4C;
     list-style-type:none;
     margin: 0px;
@@ -6,4 +13,19 @@
     overflow:hidden;
     text-align:center;
     border-radius: 10px 10px 10px 10px;
+}
+nav-li {
+    float:left;
+
+}
+nav-li a {
+    display:block;
+    padding:8px 16px;
+    color: white;
+    text-decoration: none;
+}
+
+nav-li a:hover {
+    color:white;
+    background-color: #762626;
 }
