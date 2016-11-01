@@ -29,3 +29,6 @@ nav li a:hover {
     color:white;
     background-color: #003366;
 }
+li.dropdown {
+    display: inline-block;
+}
