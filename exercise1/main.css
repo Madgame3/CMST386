@@ -29,6 +29,11 @@ nav li a:hover {
     color:white;
     background-color: #003366;
 }
-li.dropdown {
+
+.dropdown{
+    display: none;
+}
+
+.dropdown :hover {
     display: inline-block;
 }
