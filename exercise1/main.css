@@ -34,7 +34,6 @@ nav li a:hover {
     display: none;
 }
 
-
-.dropdown :hover .dropdown_content {
+.dropdown:hover .dropdown_content {
     display: inline-block;
 }
