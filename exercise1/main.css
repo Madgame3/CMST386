@@ -30,7 +30,7 @@ nav li a:hover {
     background-color: #003366;
 }
 
-nav li.dropdown_content{
+.dropdown_content{
     display: none;
 }
 
