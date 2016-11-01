@@ -35,5 +35,5 @@ nav li a:hover {
 }
 
 .dropdown:hover .dropdown_content {
-    display: inline-block;
+    display: block;
 }
