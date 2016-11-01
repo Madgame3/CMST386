@@ -5,7 +5,7 @@ nav{
     z-index:1;
     font-family: "Montserrat", sans-serif;
 }
-nav-ul {
+nav ul {
     background-color: #EC4C4C;
     list-style-type:none;
     margin: 0px;
@@ -14,18 +14,18 @@ nav-ul {
     text-align:center;
     border-radius: 10px 10px 10px 10px;
 }
-nav-li {
+nav li {
     float:left;
 
 }
-nav-li a {
+nav li a {
     display:block;
     padding:8px 16px;
     color: white;
     text-decoration: none;
 }
 
-nav-li a:hover {
+nav li a:hover {
     color:white;
     background-color: #762626;
 }
