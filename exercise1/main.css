@@ -27,7 +27,7 @@ nav li {
 }
 
 li a, .dropbtn {
-    padding: 1.0vw .75vw;
+    padding: 1.0vw 2vw;
     display: inline-block;
     color: white;
     text-align: center;
@@ -50,7 +50,6 @@ li.dropdown {
 
 .dropdown-content a {
     color: black;
-    padding: 1.3vw 3vw;
     text-decoration: none;
     display: block;
     text-align: center;
