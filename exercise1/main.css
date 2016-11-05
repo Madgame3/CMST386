@@ -10,10 +10,10 @@ header {
 nav{
   background-color: #587498;
   text-align: center;
-  width:100vw;
+  width: 75vw;
+  margin: auto;
   height: 3vw;
   overflow: none;
-  margin-bottom: 2vw;
 }
 nav ul {
   font-size: 1.75vw;
@@ -65,9 +65,11 @@ li.dropdown {
 }
 article{
   margin: auto;
-  background-color: #f5f8ff;
+  background-color: #c5d4f8;
   width: 75vw;
   text-align: left;
-  border: solid #587498 ;
-  padding: 1.5vw;
+}
+article div {
+  padding: 1vw;
+
 }
