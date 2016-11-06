@@ -75,5 +75,18 @@ article div {
 }
 article h1{
   text-align: center;
+}
+article .img{
+  width: 35vw;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin:2.25vw;
+  text-align: center;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
 
 }
