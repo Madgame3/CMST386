@@ -14,18 +14,15 @@ nav{
   width: 100vw;
   margin: auto;
   height: 4vh;
-  overflow: none;
   margin-bottom: 1.5vh;
 }
 nav ul {
   list-style-type:none;
   color: white;
   background-color: #587498;
-  overflow: none;
 }
 nav li {
   display: inline-block;
-  overflow: none;
 }
 
 li a, .dropbtn {
@@ -71,7 +68,6 @@ article{
   text-align: left;
   border: solid #587498;
   border-radius: 25px;
-  bo
 }
 article div {
   padding: 1vw;
