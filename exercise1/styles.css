@@ -98,5 +98,15 @@ iframe{
   display: block;
   width: 50vw;
   height: 28vw;
+}
 
+video{
+  margin: auto;
+  display: block;
+  width: 50vw;
+  height: auto;
+}
+
+.video{
+  text-align: center;
 }
