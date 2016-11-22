@@ -93,20 +93,20 @@ div.img img {
     height: auto;
 
 }
-iframe{
+iframe {
   margin: auto;
   display: block;
   width: 50vw;
   height: 28vw;
 }
 
-video{
+video {
   margin: auto;
   display: block;
   width: 50vw;
   height: auto;
 }
-audio{
+audio {
   margin: auto;
   display: block;
   border: solid 2px #587498;
@@ -114,17 +114,17 @@ audio{
   margin-bottom: 2vh;
 }
 
-.video{
+.video {
   text-align: center;
 }
 
-fieldset{
+fieldset {
   width: 40vw;
   margin: auto;
   display: block;
   text-align: center;
 }
 
-.learning{
+.learning {
   margin: 2%;
 }
