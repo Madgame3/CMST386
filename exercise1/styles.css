@@ -106,7 +106,25 @@ video{
   width: 50vw;
   height: auto;
 }
+audio{
+  margin: auto;
+  display: block;
+  border: solid 2px #587498;
+  border-radius: 3px 3px 3px 3px;
+  margin-bottom: 2vh;
+}
 
 .video{
   text-align: center;
+}
+
+fieldset{
+  width: 40vw;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.learning{
+  margin: 2%;
 }

@@ -43,40 +43,37 @@
 </nav>
 <article>
   <div>
-    <h1>Introduction: Stephen Harrington</h1>
-    <h2>General Info:</h2>
-    <p><strong>Question 1: </strong>What's your major?</p>
-    <p><strong>Answer 1: </strong>I'm majoring in Software Development and Security.</p>
-    <p><strong>Question 2: </strong>Is this your first online class?</p>
-    <p><strong>Answer 2: </strong> Since this is a face to face class, not sure this question really applies, but no, I've taken several online classes.</p>
-    <p><strong>Question 3: </strong>How would you describe your level of expertise with computers in general?</p>
-    <p><strong>Answer 3: </strong>Novice. Complete and utter novice.</p>
-    <p><strong>Question 4: </strong>When did you take CMST 385?</p>
-    <p><strong>Answer 4: </strong> I took CMST 385  a few semesters ago, March 2016?. It's actually pretty amazing how much you can forget in such a short amount of time!</p>
-  </div>
-  <div>
-    <h2>Web Design Info:</h2>
-    <p><strong>Question 1: </strong>Do you currently work in Web Design? If so, what do you do?</p>
-    <p><strong>Answer 1: </strong> I work in the computer field, but I wouldn't consider myself a web designer. I do occasionaly like to dabble on side projects.</p>
-    <p><strong>Question 2: </strong>What scripting languages or web technolgoies do you know? What is your level of expertise?</p>
-    <p><strong>Answer 2: </strong>PowerShell! I can actually write some pretty powerful scripts that make my life easier. I can also code in Java but only at a beginner level. Languages I'd like to learn more about include PHP and JavaScript. Currently reading a book on PHP.
-    </p>
-    <p><strong>Question 3: </strong>In this class, you'll be hand coding HTML and CSS using a text editor, what is your editor of choice?</p>
-    <p><strong>Answer 3: </strong>So far I really enjoy Atom. It seems to be a great editor with some powerful features and packages. My favorite feature right now is Atom HTML Preview, which saves me from having to git commit 1000's of times just to preview my work.</p>
-  </div>
-  <div>
-    <h2>About your Computer:</h2>
-    <p><strong>Question 1: </strong>What type of computer do you have?</p>
-    <p><strong>Answer 1: </strong>Can you be more specific. I currently have about 5 physical computers. My largest is a Full Tower, and my smallest is a Rasberry Pi. </p>
-    <p><strong>Question 2: </strong>What Operating System do you use?</p>
-    <p><strong>Answer 2: </strong>Mainly Windows Operating Systems but I've started to crossover to Linux, specifically RHEL distro's.</p>
-    <p><strong>Question 3: </strong>Which web browser or browsers do you use?</p>
-    <p><strong>Answer 3: </strong>Chrome, unless I accidently open up Safari on my iphone.</p>
-  </div>
-  <div>
-    <h2>Optional:</h2>
-    <p><strong>Question 1: </strong>What are you nervous about or don't understand?</p>
-    <p><strong>Answer 1: </strong>I don't think I'm nervous about Web Design anymore, thanks Professor. The illusion of how difficult it is to create good looking Websites has been shattered.</p>
+    <form action="contact.html" method="post">
+      <fieldset>
+        <legend>Contact Us</legend>
+      Name: <br>
+      <input type="text" name="name" required><br><br>
+      Address: <br>
+      <input type="text" name="address"><br><br>
+      Home Phone:<br>
+      <input type="text" name="homephone"><br><br>
+      Cell Phone:<br>
+      <input type="text" name="cellphone"><br><br>
+      Email address:<br>
+      <input type="text" name="email" required><br><br>
+      Question/Comments<br>
+      <textarea type="area" name="question"></textarea><br><br>
+      Occupation:<br>
+      <input type="checkbox" name="occupation" value="employed">Employed
+      <input type="checkbox" name="occupation" value="retired">Retired
+      <input type="checkbox" name="occupation" value="student">Student
+      <br><br>
+      Gender:<br>
+      <input type="radio" name="gender" value="male">Male
+      <input type="radio" name="gender" value="female">Female
+      <input type="radio" name="gender" value="other">Other
+      <br><br>
+      Age:<br>
+      <input type="number" name="age" min="1" max="100"><br>
+      <br>
+      <input type="submit" value="submit">
+      </fieldset>
+    </form>
   </div>
 </article>
 
