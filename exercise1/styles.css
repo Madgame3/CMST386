@@ -138,3 +138,31 @@ fieldset {
     50%  {background-color: #587498; color: white;}
     100% {background-color: red; color: white;}
 }
+.temp-display {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin: auto;
+ margin-top: 2vw;
+}
+.temp-inside {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #D9D9D9;
+  border-top: 1px solid silver;
+}
+.inside-inside{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.input-boxes{
+  text-align: center;
+  padding: 5px;
+}
+.input-boxes-label{
+  background-color: lightgrey;
+}
