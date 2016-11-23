@@ -14,7 +14,7 @@ function convertType(){
 }
 function converttoF(){
   ctemp = prompt("Enter the temperature in Celsius you want to convert to Fahrenheit", "0");
-  if (!isNan(ctemp)) {
+  if (!(isNan(ctemp))) {
       alert("The value you entered is not a number, please try again.")
       converttoF();
   }
@@ -25,7 +25,7 @@ function converttoF(){
 }
 function converttoC(){
   ftemp = prompt("Enter the temperature in Fahrenheit you want to convert to Celsuis", "0");
-  if (!isNan(ftemp)) {
+  if (!(isNan(ftemp))) {
       alert("The value you entered is not a number, please try again.")
        converttoC();
   }
