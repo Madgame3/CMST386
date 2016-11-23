@@ -26,7 +26,7 @@ function converttoF(){
 function converttoC(){
   ftemp = prompt("Enter the temperature in Fahrenheit you want to convert to Celsuis", "0");
   if (isNaN(ftemp)) {
-      alert(ftemp " is not a number, please try again.")
+      alert(ftemp + " is not a number, please try again.")
        converttoC();
   }
   else {
