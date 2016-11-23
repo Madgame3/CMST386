@@ -124,3 +124,17 @@ fieldset {
 .learning {
   margin: 2%;
 }
+.bigred{
+  font-size: 24px;
+  border-radius: 7px;
+  margin: auto;
+  display: block;
+  animation-name: bigred;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes bigred {
+    0%   {background-color: red; color: white;}
+    50%  {background-color: #587498; color: white;}
+    100% {background-color: red; color: white;}
+}

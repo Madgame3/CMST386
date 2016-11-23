@@ -15,12 +15,12 @@ function convertType(){
 function converttoF(){
   ctemp = prompt("Enter the temperature in Celsius you want to convert to Fahrenheit", "0");
   if (isNaN(ctemp)) {
-      alert(ctempt + " is not a number, please try again.")
+      alert(ctemp + " is not a number, please try again.")
       converttoF();
   }
   else {
     var ftemp = (ctemp*1.8) + 32;
-    alert("Farenheit: " + ftemp);
+    alert("Farenheit = " + ftemp);
   }
 }
 function converttoC(){
@@ -31,7 +31,7 @@ function converttoC(){
   }
   else {
     var ctemp = (ftemp - 32) * .5556;
-    alert("Celsius: " + ctemp);
+    alert("Celsius = " + ctemp);
   }
 
 }
