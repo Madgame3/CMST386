@@ -1,5 +1,5 @@
 function convertType(){
-  var choice = prompt("Enter '1' for F to C, Enter '2' for C to F", "1 or 2");
+  var choice = prompt("Enter '1' for Fahrenheit to Celsius, Enter '2' for Celsius to Fahrenheit", "1 or 2");
     if (choice == 1) {
       alert("you entered 1 for Fahrenheit to Celsius");
       converttoC();
