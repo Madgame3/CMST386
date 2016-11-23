@@ -21,6 +21,7 @@ function converttoF(){
     document.getElementById('userchoice').value = "Celsius";
     document.getElementById('convertedvalue').value = ftemp+"°";
     document.getElementById('convertedchoice').value = "Fahrenheit";
+    console.log("This program brought to you by Stephen Harrington")
   }
 }
 function converttoC(){
@@ -35,6 +36,7 @@ function converttoC(){
     document.getElementById('userchoice').value =  "Fahrenheit";
     document.getElementById('convertedvalue').value = ctemp+"°";
     document.getElementById('convertedchoice').value = "Celsius";
+    console.log("This program brought to you by Stephen Harrington")
   }
 
 }
