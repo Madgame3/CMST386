@@ -3,7 +3,7 @@ function Temperature(){
     if(choice==1){
       alert("you entered 1 for F to C");
     }
-    if(choice==2){
+    else if (choice==2){
       alert("you entered 2 for C to F")
     }
     else{
