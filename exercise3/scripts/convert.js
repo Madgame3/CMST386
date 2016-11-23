@@ -20,9 +20,9 @@ function converttoF(){
   }
   else {
     var ftemp = (ctemp*1.8) + 32;
-    document.getElementById('uservalue').value = ctemp;
+    document.getElementById('uservalue').value = ctemp + "°";
     document.getElementById('userchoice').value = "Celsius";
-    document.getElementById('convertedvalue').value = ftemp;
+    document.getElementById('convertedvalue').value = ftemp+"°";
     document.getElementById('convertedchoice').value = "Fahrenheit";
   }
 }
@@ -34,9 +34,9 @@ function converttoC(){
   }
   else {
     var ctemp = (ftemp - 32) * .5556;
-    document.getElementById('uservalue').value = ftemp;
+    document.getElementById('uservalue').value = ftemp+"°";
     document.getElementById('userchoice').value =  "Fahrenheit";
-    document.getElementById('convertedvalue').value = ctemp;
+    document.getElementById('convertedvalue').value = ctemp+"°";
     document.getElementById('convertedchoice').value = "Celsius";
   }
 
