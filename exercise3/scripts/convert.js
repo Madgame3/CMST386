@@ -39,7 +39,7 @@ function converttoC(){
     console.log("This program brought to you by Stephen Harrington")
   }
 
-function onChange(){
+function convertInput() {
   var uservalue = document.getElementById("uservalue");
   alert("input has changed" + uservalue);
 }
