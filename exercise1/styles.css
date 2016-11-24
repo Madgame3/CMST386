@@ -166,3 +166,10 @@ fieldset {
 .input-boxes-label{
   background-color: lightgrey;
 }
+#flowchart{
+  width: 60vw;
+  display: block;
+  outline: none;
+  margin: auto;
+  padding-bottom: 2vh;
+}
