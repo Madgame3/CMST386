@@ -171,5 +171,14 @@ fieldset {
   display: block;
   outline: none;
   margin: auto;
-  padding-bottom: 2vh;
+}
+
+.test-data{
+  margin: auto;
+  border: 2px solid #587498;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+}
+.test-data td,th{
+  border: 2px solid #D9D9D9;
 }

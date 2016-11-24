@@ -54,20 +54,26 @@
 <div class="temp-display">
     <div class="temp-inside" id="input">
       <strong>User Input</strong>
-      <div class="inside-inside"><input value="" id="uservalue" class="input-boxes">
-      <input value=""  id="userchoice" class="input-boxes input-boxes-label">
+      <div class="inside-inside">
+        <input value="" id="uservalue" class="input-boxes" onchange="onChange(this.value)">
+          <select size="1" value="" id="userchoice" class="input-boxes input-boxes-label">
+          <option value=""></option>
+          <option value="Celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+        </select>
       </div>
     </div>
     <div class="temp-inside" id="input">
       <strong>Converted Temperature</strong>
-      <div class="inside-inside"><input value="" id="convertedvalue" class="input-boxes">
-      <input value="" id="convertedchoice" class="input-boxes input-boxes-label">
+      <div class="inside-inside">
+        <input value="" id="convertedvalue" class="input-boxes">
+        <input value="" id="convertedchoice" class="input-boxes input-boxes-label">
       </div>
     </div>
 </div>
 <div>
   <h2>Program Design Documention:</h2>
-     <p>This program prompts the user for input, and based on his or her input and prompt choices will convert those values to another temperature measurement. AFter the temperature has been converted, both the original user input and the converted Temperature will be displayed in the appropriate input boxes on screen.</p>
+     <p>This program prompts the user for input, and based on his or her input and prompt choices will convert those values to another temperature measurement. After the temperature has been converted, both the original user input and the converted Temperature will be displayed in the appropriate input boxes on screen.</p>
 </div>
 <div>
   <h2> Flowchart:</h2>
