@@ -38,10 +38,9 @@ function converttoC(){
     document.getElementById('convertedchoice').value = "Celsius";
     console.log("This program brought to you by Stephen Harrington")
   }
+}
 
 function convertInput() {
   var uservalue = document.getElementById("uservalue");
   alert("input has changed" + uservalue);
-}
-
 }
