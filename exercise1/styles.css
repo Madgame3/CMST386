@@ -182,3 +182,14 @@ fieldset {
 .test-data td,th{
   border: 2px solid #D9D9D9;
 }
+form .qty{
+  width: 50px;
+
+}
+
+#casino{
+  width: 60vw;
+}
+.program{
+  width: 90%;
+}

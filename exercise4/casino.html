@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Stephen Harrington - WebDesign - CMST386 - Exercise 3</title>
+  <meta name="description" content="Design and implement a program will convert temperatures between Fahrenheit and
+  Celsius temperature systems">
+  <meta name="keywords" content="HTML5, CSS3, CMST386, Stephen Harrington, About Me">
+  <link rel="stylesheet" href="../exercise1/styles.css" media="screen" title="no title">
+  <script type="text/javascript" src="scripts/convert.js" >
+  </script>
+</head>
+<body>
+<header>
+  <p><img id="logo" src="images/spharrington.png" alt="Logo of SPHarrington" /></p>
+</header>
+<nav>
+  <ul>
+  <li><a href="../index.html">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Exercise 1</a>
+    <div class="dropdown-content">
+      <a href="../exercise1/index.html">Index</a>
+      <a href="../exercise1/gallery.html">Gallery</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Exercise 2</a>
+    <div class="dropdown-content">
+      <a href="../exercise2/index.html">Index</a>
+      <a href="../exercise2/contact.html">Contact</a>
+    </div>
+  </li>
+  <li class="dropdown">
+      <a href="#" class="dropbtn">Exercise 3</a>
+      <div class="dropdown-content">
+        <a href="../exercise3/temperatures.html">Temperatures</a>
+        <a href="../exercise3/temperatures0.html">Temperatures - B</a>
+        <a href="../exercise3/flowchart.html">Flowchart</a>
+      </div>
+    </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Exercise 4</a>
+      <div class="dropdown-content">
+        <a href="../exercise4/casino.html">Casino</a>
+      </div>
+    </li>
+</ul>
+</nav>
+<article>
+  <form action="" method="post">
+    <fieldset id="casino">
+      <legend>Casino Chip Counting Program</legend>
+      <fieldset class="program">
+        <legend>Customer Information</legend>
+        <table>
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" name="fname" required></td>
+          </tr>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" name="lname" required></td>
+          </tr>
+          <tr>
+            <td>U.S Citizen:</td>
+            <td><select size="1" id="citizen">
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td>Social Security Number:</td>
+            <td><input type="text" name="ssn" disabled></td>
+          </tr>
+        </table>
+      </fieldset>
+      <br>
+      <fieldset class="program">
+        <legend>Receipts</legend>
+          # of Receipts:<input type="number" name="receipt" class"qty" min="0" max="5" value="0">
+      </fieldset>
+    <br>
+      <fieldset class="program">
+          <legend>Chip Quanity</legend>
+            <table>
+              <tr>
+                <th>Color</th>
+                <th>Value$</td>
+                <th>Quanity</th>
+              </tr>
+              <tr>
+                <td>Black:</td>
+                <td>$5</td>
+                <td><input type="number" class="qty" min="0"></td>
+              </tr>
+              <tr>
+                <td>Blue:</td>
+                <td>$20</td>
+                <td><input type="number" class="qty" min="0"></td>
+              </tr>
+              <tr>
+                <td>Red:</td>
+                <td>$50</td>
+                <td><input type="number" class="qty" min="0" ></td>
+              </tr>
+              <tr>
+                <td>Green:</td>
+                <td>$100</td>
+                <td><input type="number" class="qty" min="0"></td>
+              </tr>
+              <tr>
+                <td>Purple:</td>
+                <td>$500</td>
+                <td><input type="number" class="qty" min="0"></td>
+              </tr>
+              <tr>
+                <td>Gold:</td>
+                <td>$1000</td>
+                <td><input type="number" class="qty" min="0"></td>
+              </tr>
+            </table>
+      </fieldset><br>
+      Subtotal $: <input type="number"><br>
+      Taxes $: <input type="number"><br>
+      Total $: <input type="number"><br>
+    </fieldset>
+  </form>
+</article>
+</body>
+</html>
