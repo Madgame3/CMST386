@@ -9,10 +9,10 @@
   Celsius temperature systems">
   <meta name="keywords" content="HTML5, CSS3, CMST386, Stephen Harrington, About Me">
   <link rel="stylesheet" href="../exercise1/styles.css" media="screen" title="no title">
-  <script type="text/javascript" src="scripts/receipts.js"></script>
-  <script type="text/javascript" src="scripts/ssn.js"></script>
-  <script type="text/javascript" src="scripts/subtotal.js"></script>
-  <script type="text/javascript" src="scripts/total.js"></script>
+  <script type="text/javascript" src="./scripts/receipts.js"></script>
+  <script type="text/javascript" src="./scripts/ssn.js"></script>
+  <script type="text/javascript" src="./scripts/subtotal.js"></script>
+  <script type="text/javascript" src="./scripts/total.js"></script>
 </head>
 <body>
 <header>
@@ -68,7 +68,7 @@
           </tr>
           <tr>
             <td>U.S Citizen:</td>
-            <td><select size="1" id="citizen" onchange="ssn()">
+            <td><select size="1" id="citizen" onchange="allowSSN()">
               <option value="1">Yes</option>
               <option value="0">No</option>
             </select></td>
