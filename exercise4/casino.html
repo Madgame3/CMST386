@@ -9,8 +9,10 @@
   Celsius temperature systems">
   <meta name="keywords" content="HTML5, CSS3, CMST386, Stephen Harrington, About Me">
   <link rel="stylesheet" href="../exercise1/styles.css" media="screen" title="no title">
-  <script type="text/javascript" src="scripts/convert.js" >
-  </script>
+  <script type="text/javascript" src="scripts/receipts.js"></script>
+  <script type="text/javascript" src="scripts/ssn.js"></script>
+  <script type="text/javascript" src="scripts/subtotal.js"></script>
+  <script type="text/javascript" src="scripts/total.js"></script>
 </head>
 <body>
 <header>
@@ -66,7 +68,7 @@
           </tr>
           <tr>
             <td>U.S Citizen:</td>
-            <td><select size="1" id="citizen">
+            <td><select size="1" id="citizen" onchange="ssn()">
               <option value="1">Yes</option>
               <option value="0">No</option>
             </select></td>
@@ -85,47 +87,61 @@
     <br>
       <fieldset class="program">
           <legend>Chip Quanity</legend>
-            <table>
+            <table class="chips">
               <tr>
                 <th>Color</th>
-                <th>Value$</td>
+                <th>$Value</td>
                 <th>Quanity</th>
               </tr>
               <tr>
                 <td>Black:</td>
-                <td>$5</td>
-                <td><input type="number" class="qty" min="0"></td>
+                <td><input type="number" class="value" value="5" readonly></td>
+                <td><input id="black" type="number" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Blue:</td>
-                <td>$20</td>
-                <td><input type="number" class="qty" min="0"></td>
+                <td><input type="number" class="value" value="20" readonly></td>
+                <td><input id="blue" type="number" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Red:</td>
-                <td>$50</td>
-                <td><input type="number" class="qty" min="0" ></td>
+                <td><input type="number" class="value" value="50" readonly></td>
+                <td><input id="red" type="number" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Green:</td>
-                <td>$100</td>
-                <td><input type="number" class="qty" min="0"></td>
+                <td><input type="number" class="value" value="100" readonly></td>
+                <td><input id="green" type="number" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Purple:</td>
-                <td>$500</td>
-                <td><input type="number" class="qty" min="0"></td>
+                <td><input type="number" class="value" value="500" readonly></td>
+                <td><input id="purple" type="number" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Gold:</td>
-                <td>$1000</td>
-                <td><input type="number" class="qty" min="0"></td>
+                <td><input type="number" class="value" value="1000" readonly></td>
+                <td><input id="gold" type="number" class="qty" min="0" value="0"></td>
               </tr>
             </table>
       </fieldset><br>
-      Subtotal $: <input type="number"><br>
-      Taxes $: <input type="number"><br>
-      Total $: <input type="number"><br>
+      <fieldset class="program">
+        <legend>Payment</legend>
+        <table class="chips">
+          <tr>
+            <td>Subtotal $:</td>
+            <td><input type="number"></td>
+          </tr>
+          <tr>
+            <td>Taxes $:</td>
+            <td><input type="number"></td>
+          </tr>
+          <tr>
+            <td>Total $:</td>
+            <td><input type="number"></td>
+          </tr>
+        </table>
+      </fieldset>
     </fieldset>
   </form>
 </article>

@@ -182,9 +182,9 @@ fieldset {
 .test-data td,th{
   border: 2px solid #D9D9D9;
 }
-form .qty{
-  width: 50px;
-
+form .qty, .value{
+  width: 65px;
+  text-align: right;
 }
 
 #casino{
@@ -192,4 +192,10 @@ form .qty{
 }
 .program{
   width: 90%;
+}
+.chips {
+  margin: auto;
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2vh;
 }
