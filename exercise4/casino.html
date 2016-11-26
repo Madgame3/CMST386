@@ -68,9 +68,10 @@
 <article>
   <form action="" method="post">
     <fieldset id="casino">
-      <legend>Casino Chip Counting Program</legend>
+      <legend><h2>Casino Chip Counting Program</h2></legend>
+      <br>
       <fieldset class="program">
-        <legend>Customer Information</legend>
+        <legend><h3>Customer Information</h3></legend>
         <table>
           <tr>
             <td>First Name:</td>
@@ -95,13 +96,61 @@
       </fieldset>
       <br>
       <fieldset class="program">
-        <legend>Receipts</legend>
-          # of Receipts:<input type="number" name="receipt" class"qty" min="0" max="5" value="0">
+        <legend><h3>Receipts</h3></legend>
+          How many Receipts do you have: <input type="number" id="receiptqty" class"qty" min="0" max="10" value="0" onchange="unhideReceipts()"><br>
+        <div id="flexcolumn">
+          <table id="addingreceipts" onchange="addSum()" hidden>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 1:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value="0" min=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 2:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 min=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 3:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 min=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 4:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 min=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 5:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 min=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 6:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 min=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 7:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 min=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 8:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 9:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 hidden></td>
+              </tr>
+              <tr name="hide-tr" hidden>
+                <td>Receipt 10:</td>
+                <td><input type="number" class="hiddenreceipts" name="receipts" value=0 hidden></td>
+              </tr>
+              <tr name="hide-tr">
+                <td><strong>Sum:</strong></td>
+                <td><input type="number" class="hiddenreceipts" id="receiptsum" value=0 readonly></td>
+              </tr>
+          </table>
+        </div>
       </fieldset>
     <br>
       <fieldset class="program">
-          <legend>Chip Quanity</legend>
-            <table class="chips">
+          <legend><h3>Chip Quanity</h3></legend>
+            <table id="chipcounter" class="chips" onchange="chipCalculator()">
               <tr>
                 <th>Color</th>
                 <th>$Value</td>
@@ -109,50 +158,50 @@
               </tr>
               <tr>
                 <td>Black:</td>
-                <td><input type="number" class="value" value="5" readonly></td>
-                <td><input id="black" type="number" class="qty" min="0" value="0"></td>
+                <td><input type="number" name="chipvalue" class="value" value="5" readonly></td>
+                <td><input id="black" type="number" name="chipqty" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Blue:</td>
-                <td><input type="number" class="value" value="20" readonly></td>
-                <td><input id="blue" type="number" class="qty" min="0" value="0"></td>
+                <td><input type="number" class="value" name="chipvalue" value="20" readonly></td>
+                <td><input id="blue" type="number" name="chipqty" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Red:</td>
-                <td><input type="number" class="value" value="50" readonly></td>
-                <td><input id="red" type="number" class="qty" min="0" value="0"></td>
+                <td><input type="number" class="value" name="chipvalue" value="50" readonly></td>
+                <td><input id="red" type="number" name="chipqty" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Green:</td>
-                <td><input type="number" class="value" value="100" readonly></td>
-                <td><input id="green" type="number" class="qty" min="0" value="0"></td>
+                <td><input type="number" class="value" name="chipvalue" value="100" readonly></td>
+                <td><input id="green" type="number" name="chipqty" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Purple:</td>
-                <td><input type="number" class="value" value="500" readonly></td>
-                <td><input id="purple" type="number" class="qty" min="0" value="0"></td>
+                <td><input type="number" class="value" name="chipvalue" value="500" readonly></td>
+                <td><input id="purple" type="number" name="chipqty" class="qty" min="0" value="0"></td>
               </tr>
               <tr>
                 <td>Gold:</td>
-                <td><input type="number" class="value" value="1000" readonly></td>
-                <td><input id="gold" type="number" class="qty" min="0" value="0"></td>
+                <td><input type="number" class="value" name="chipvalue" value="1000" readonly></td>
+                <td><input id="gold" type="number" name="chipqty" class="qty" min="0" value="0"></td>
               </tr>
             </table>
       </fieldset><br>
       <fieldset class="program">
-        <legend>Payment</legend>
-        <table class="chips">
+        <legend><h3>Winnings</h3></legend>
+        <table class="chips" onchange="calculateTotal()">
           <tr>
             <td>Subtotal $:</td>
-            <td><input type="number"></td>
+            <td><input type="number" id="subtotal" value="0" readonly></td>
           </tr>
           <tr>
             <td>Taxes $:</td>
-            <td><input type="number"></td>
+            <td><input type="number" id="taxes" value=0 readonly></td>
           </tr>
           <tr>
             <td>Total $:</td>
-            <td><input type="number"></td>
+            <td><input type="number" id="total" value=0 readonly></td>
           </tr>
         </table>
       </fieldset>
