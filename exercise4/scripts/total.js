@@ -1,12 +1,20 @@
 function calculateTotal(){
-  var sub = getElementById('  subtotal');
-  var tax = getElementById('taxes');
-  var totals = getElementById('total');
-  var receipts = getElementById('receiptsum');
-  if(receipts.value < sub.value){
-    var taxable = sub.value - receipts.value;
-    tax.value = taxable * .1;
-    totals.value = taxable * .9;
+  var sub = document.getElementById('subtotal');
+  var tax = document.getElementById('taxes');
+  var totals = document.getElementById('total');
+  var receipts = document.getElementById('receiptsum');
+  console.log("calculateTotal was called");
+  var taxable = 0;
+  tax.value = 0;
+  totals.value = 0;
+  if( receipts.value < sub.value ){
+    console.log("receipts value: " + receipts.value);
+    console.log("sub value: " + sub.value);
+    taxable = sub.value - receipts.value;
+    console.log("taxable: " + taxable);
+    tax.value = Math.round(taxable * .1);
+    console.log("tax value: " + tax.value);
+    totals.value = sub.value - tax.value;
   }
   else{
     tax.value = 0;

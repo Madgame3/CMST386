@@ -37,4 +37,5 @@ function addSum(){
     }
   }
   sum.value = totalspent;
+  chipCalculator();
 }

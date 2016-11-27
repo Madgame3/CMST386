@@ -198,6 +198,7 @@ fieldset {
   border: 1.5px solid grey;
   border-radius: 5px;
   margin-bottom: 2vh;
+  text-align: right;
 }
 #flexcolumn{
   display:flex;
