@@ -7,6 +7,9 @@ function calculateTotal(){
   var taxable = 0;
   tax.value = 0;
   totals.value = 0;
+  if(isNaN(sub.value){
+    console.log("sub.value is not a number: " sub.value);
+  }
   if( receipts.value < sub.value ){
     console.log("receipts value: " + receipts.value);
     console.log("sub value: " + sub.value);
