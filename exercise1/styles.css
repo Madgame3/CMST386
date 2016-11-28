@@ -216,6 +216,7 @@ text-align: right;
 }
 .customerinfo{
   margin: auto;
+  align-items: center; 
 }
 .right{
   text-align: right;
