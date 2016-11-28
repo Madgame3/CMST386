@@ -214,3 +214,9 @@ fieldset {
 border: 1.5px solid grey;
 text-align: right;
 }
+.customerinfo{
+  margin: auto;
+}
+.right{
+  text-align: right;
+}
