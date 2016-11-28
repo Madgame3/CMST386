@@ -66,12 +66,12 @@
 </ul>
 </nav>
 <article>
-  <form action="" method="post">
+  <form>
     <fieldset id="casino">
-      <legend><h2>Casino Chip Counting Program</h2></legend>
+      <legend>Casino Chip Counting Program</legend>
       <br>
       <fieldset class="program">
-        <legend><h3>Customer Information</h3></legend>
+        <legend>Customer Information</legend>
         <table class="customerinfo">
           <tr>
             <td class="right">First Name:</td>
@@ -83,7 +83,7 @@
           </tr>
           <tr>
             <td class="right">U.S Citizen:</td>
-            <td><select size="1" id="citizen"onchange="allowSSN()">
+            <td><select size="1" id="citizen" onchange="allowSSN()">
               <option value="1">Yes</option>
               <option value="0" selected>No</option>
             </select></td>
@@ -96,8 +96,8 @@
       </fieldset>
       <br>
       <fieldset class="program">
-        <legend><h3>Receipts</h3></legend>
-          How many Receipts do you have: <input type="number" id="receiptqty" class"qty" min="0" max="10" value="0" onchange="unhideReceipts()"><br>
+        <legend>Receipts</legend>
+          How many Receipts do you have: <input type="number" id="receiptqty" class="qty" min="0" max="10" value="0" onchange="unhideReceipts()"><br>
         <div id="flexcolumn">
           <table id="addingreceipts" onchange="addSum()" hidden>
               <tr name="hide-tr" hidden>
@@ -149,7 +149,7 @@
       </fieldset>
     <br>
       <fieldset class="program">
-          <legend><h3>Chip Quanity</h3></legend>
+          <legend>Chip Quanity</legend>
             <table id="chipcounter" class="chips" onchange="chipCalculator()">
               <tr>
                 <th>Color</th>
@@ -189,7 +189,7 @@
             </table>
       </fieldset><br>
       <fieldset class="program">
-        <legend><h3>Winnings</h3></legend>
+        <legend>Winnings</legend>
         <table class="chips">
           <tr>
             <td>Subtotal $:</td>
