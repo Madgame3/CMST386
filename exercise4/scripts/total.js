@@ -13,7 +13,7 @@ function calculateTotal(){
   if(isNaN(sub.value)){
     console.log("sub is not a number");
   }
-  if(sub.value > receipts.value){
+  if((sub.value - receipts.value) > 0){
     console.log("receipts value: " + receipts.value);
     console.log("sub value: " + sub.value);
     taxable = sub.value - receipts.value;
