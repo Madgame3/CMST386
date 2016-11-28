@@ -4,7 +4,8 @@ function unhideReceipts(){
   if(value>10){
     alert("Max Receipts is 10, please try again")
   }
-  var tr = document.getElementsByName("hide-tr");
+
+  var tr = document.getElementsByClassName('hide-tr');
   var hidden = document.getElementsByName("receipts");
   var table = document.getElementById('addingreceipts');
   for(var i=0; i<hidden.length;i++){
