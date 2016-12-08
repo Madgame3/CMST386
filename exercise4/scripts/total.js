@@ -18,8 +18,9 @@ function calculateTotal(){
   }
   winnings.value = (totals.value - receipts.value);
   if(winnings.value > 0){
+    winnings.style.color = "green";
   }
-  winnings.style.color = "green";
+
   else if (winnings.value < 0) {
     winnings.style.color = "red";
   }
