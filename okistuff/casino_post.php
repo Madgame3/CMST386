@@ -8,5 +8,5 @@
   echo "<br>" . $fname . "<br>" . $lname ."<br>". $winnings;
   echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>';
 
-  $sql = "INSERT INTO casino (fname, lname, winnings) VALUES ($fname, $lname, $winnings)";
+  $sql = "INSERT INTO casino ('fname', 'lname', 'winnings') VALUES ($fname, $lname, $winnings)";
 ?>
