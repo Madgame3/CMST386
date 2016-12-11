@@ -63,6 +63,13 @@
         <a href="../exercise4/casino.html">Casino</a>
       </div>
     </li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">Okistuff</a>
+      <div class="dropdown-content">
+        <a href="../okistuff/casino.html">Casino</a>
+        <a href="../okistuff/casino_payouts.php">Casino Payouts</a>
+      </div>
+    </li>
 </ul>
 </nav>
 <article>
