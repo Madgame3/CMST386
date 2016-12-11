@@ -12,11 +12,8 @@
   else{
       echo "Connect to Database was Successful" . "<br>";
   }
-  $sql = "SELECT * FROM casino";
-  $result = $conn->query("Select * from casino");
-  printf($result);
-  $conn->close();
-
+  $results = $conn->query("Select * from casino");
+  echo $results
   /*
   $fname = htmlspecialchars($_POST['fname']);
   $lname = htmlspecialchars($_POST['lname']);
