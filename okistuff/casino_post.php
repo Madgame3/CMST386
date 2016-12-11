@@ -21,6 +21,9 @@
   echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>';
 
   $sql = "INSERT INTO casino VALUES ($fname, $lname, $winnings)";
-  $return = mysqli_query($sql);
-  echo "<br>" . $return;
+  if ($conn->query($sql) === TRUE) {
+      echo "New record created successfully";
+  } else {
+      echo "Error: " . $sql . "<br>" . $conn->error;
+  }
 ?>
