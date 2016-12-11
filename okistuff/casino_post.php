@@ -19,6 +19,6 @@
   echo "<br>" . $fname . "<br>" . $lname ."<br>". $winnings;
   echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>';
 
-  $sql = "INSERT INTO casino VALUES ("$fname", "$lname", "$winnings")";
+  $sql = "INSERT INTO casino VALUES ($fname, $lname, $winnings)";
   mysqli_query($sql);
 ?>
