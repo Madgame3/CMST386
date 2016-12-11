@@ -4,9 +4,11 @@
   $db_pass = "password";
   $db_name = "okistuff";
 
-  @mysql_connect("$db_host","$db_username","$db_pass") or die ("Could not connect to SQL, check your stuff Steve");
-  @mysql_select_db("$db_name") or die ("No Database, check your stuff Steve");
-
-  echo "Connect to Database was Successful";
-
+  $con = new mysqli("$db_host","$db_username","$db_pass", "$dbname");
+  if($con->connect_error){
+    die("Connection failed:" . $con->connect_error);
+  }
+  else{
+      echo "Connect to Database was Successful";
+  }
  ?>
