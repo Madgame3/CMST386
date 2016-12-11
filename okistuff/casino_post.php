@@ -9,4 +9,5 @@
   echo $fname;
   echo $lname;
   echo $winnings;
+  INSERT INTO casino ( "fname", "lname", "winnings") VALUES ($fname, $lname, $winnings);
  ?>
