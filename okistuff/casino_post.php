@@ -5,7 +5,7 @@
   $db_pass = "password";
   $db_name = "okistuff";
 
-  $conn = new mysqli("$db_host","$db_username","$db_pass", "$dbname");
+  $conn = new mysqli($db_host, $db_username, $db_pass, $dbname);
   if($conn->connect_error){
     die("Connection failed:" . $conn->connect_error);
   }
