@@ -5,7 +5,7 @@
   $db_pass = "password";
   $db_name = "okistuff";
 
-  $con = @mysql_connect("$db_host","$db_username","$db_pass") or die ("Could not connect to SQL, check your stuff Steve");
+  @mysql_connect("$db_host","$db_username","$db_pass") or die ("Could not connect to SQL, check your stuff Steve");
   @mysql_select_db("$db_name") or die ("No Database, check your stuff Steve");
 
   $fname = htmlspecialchars($_POST['fname']);
@@ -13,9 +13,6 @@
   $citizen = htmlspecialchars($_POST['citizen']);
   $ssn = htmlspecialchars($_POST['ssn']);
   $winnings = htmlspecialchars($_POST['winnings']);
-
-  $Sql = "INSERT INTO Casino (fname, lname, citizen, ssn, winnings) VALUES ("$fname", "$lname", "$citizen", "$ssn", "$winnings")";
-  mysql_query($sql, $con);
 
   echo "Your information has been saved to our database"
   echo $fname;
