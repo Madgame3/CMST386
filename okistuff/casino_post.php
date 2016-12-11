@@ -13,16 +13,8 @@
       echo "Connect to Database was Successful" . "<br>";
   }
   $sql = "SELECT * FROM casino";
-  $result = $conn->query($sql);
-
-  if ($result->num_rows > 0) {
-      // output data of each row
-      while($row = $result->fetch_assoc()) {
-          echo "fname: " . $row["fname"]. " - LName: " . $row["lname"]. "Winnings: " . $row["winnings"]. "<br>";
-      }
-  } else {
-      echo "0 results";
-  }
+  $result = $conn->query("Select * from casino");
+  printf($result);
   $conn->close();
 
   /*
