@@ -225,3 +225,6 @@ text-align: right;
   border: 1.5px solid grey;
   margin: auto;
 }
+.oki_table tr{
+  border: 1.5px solid grey;
+}
