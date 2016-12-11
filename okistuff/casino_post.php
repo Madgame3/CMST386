@@ -5,5 +5,5 @@
   $lname = htmlspecialchars($_POST['lname']);
   $winnings = htmlspecialchars($_POST['winnings']);
 
-  echo $fname . $Lname . $winnings;
+  echo $fname . $lname . $winnings;
 ?>
