@@ -15,9 +15,9 @@
   $winnings = htmlspecialchars($_POST['winnings']);
 
   echo "Your information has been saved to our database";
-  echo $fname;
-  echo $lname;
-  echo $citizen;
-  echo $ssn;
-  echo $winnings;
+  echo $fname <br>;
+  echo $lname <br>;
+  echo $citizen <br>;
+  echo $ssn <br>;
+  echo $winnings <br> ;
  ?>
