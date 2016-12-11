@@ -65,7 +65,7 @@ article{
   margin: auto;
   background-color: white;
   width: 85vw;
-  height: 50vh;
+  min-height: 60vh;
   text-align: left;
   border: solid #587498;
   border-radius: 25px;
