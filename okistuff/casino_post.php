@@ -12,6 +12,9 @@
   else{
       echo "Connect to Database was Successful" . "<br>";
   }
+  $sql = "SELECT * FROM casino";
+  $result = $conn->query($sql);
+  echo $result;
 
   $fname = htmlspecialchars($_POST['fname']);
   $lname = htmlspecialchars($_POST['lname']);
