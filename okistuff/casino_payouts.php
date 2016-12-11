@@ -73,6 +73,7 @@
 </ul>
 </nav>
 <article>
+  <h1>Stored in Database: </h1>
   <?php
       require "connect.php";
       $sql = "select fname, lname, winnings from casino";
