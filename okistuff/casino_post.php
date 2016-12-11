@@ -7,7 +7,7 @@
 
   echo "<br>" . $fname . "<br>" . $lname ."<br>". $winnings;
   echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>';
+  echo "<br>" . $conn;
 
-  $sql = "INSERT INTO casino ('fname', 'lname', 'winnings') VALUES ($fname, $lname, $winnings)";
-  $conn->exec($sql);
+  $sql = "INSERT INTO casino (fname, lname, winnings) VALUES ($fname, $lname, $winnings)";
 ?>
