@@ -20,7 +20,7 @@
   echo "<br>" . $fname . "<br>" . $lname ."<br>". $winnings;
   echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>' . '<br>';
 
-  $sql = "INSERT INTO casino ('fname', 'lname', 'winnings') VALUES ('test', 'test', 50)";
+  $sql = "INSERT INTO casino (fname, lname, winnings) VALUES ('test', 'test', 50)";
   if ($conn->query($sql) === TRUE) {
       echo "New record created successfully";
   } else {
