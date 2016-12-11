@@ -1,4 +1,5 @@
 <?php
+
   $db_host = "localhost";
   $db_username = "okistuff";
   $db_pass = "password";
@@ -20,5 +21,6 @@
   echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>';
 
   $sql = "INSERT INTO casino VALUES ($fname, $lname, $winnings)";
-  mysqli_query($sql);
+  $return = mysqli_query($sql);
+  echo "<br>" . $return;
 ?>
