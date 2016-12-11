@@ -18,13 +18,13 @@
   if ($result->num_rows > 0) {
       // output data of each row
       while($row = $result->fetch_assoc()) {
-          echo "id: " . $row["id"]. " - Name: " . $row["firstname"]. " " . $row["lastname"]. "<br>";
+          echo "fname: " . $row["fname"]. " - LName: " . $row["lname"]. "Winnings: " . $row["winnings"]. "<br>";
       }
   } else {
       echo "0 results";
   }
   $conn->close();
-  
+
   /*
   $fname = htmlspecialchars($_POST['fname']);
   $lname = htmlspecialchars($_POST['lname']);
