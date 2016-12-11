@@ -18,7 +18,7 @@
   $winnings = htmlspecialchars($_POST['winnings']);
 
   echo "<br>" . $fname . "<br>" . $lname ."<br>". $winnings;
-  echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>';
+  echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>' . '<br>';
 
   $sql = "INSERT INTO casino VALUES ($fname, $lname, $winnings)";
   if ($conn->query($sql, $conn) === TRUE) {
