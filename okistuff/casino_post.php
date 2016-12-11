@@ -6,7 +6,4 @@
   $winnings = htmlspecialchars($_POST['winnings']);
 
   echo $fname . $Lname . $winnings;
-  $sql = "INSERT INTO casino VALUES ("$fname", "$lname", "$winnings")";
-
-
- ?>
+?>
