@@ -9,5 +9,6 @@
   echo $fname;
   echo $lname;
   echo $winnings;
-  $sql = "INSERT INTO casino ( fname, lname, winnings) VALUES ('stephen', 'harrington', '5')";
+  $sql = "INSERT INTO casino (fname, lname, winnings)
+VALUES ("$fname", "$lname", "$winnings")";
  ?>
