@@ -1,6 +1,6 @@
 <?php
     require "connect.php";
-    $sql = "Select * from casino";
+    $sql = "select fname, lname, winnings from casino";
     $results = $conn->query($sql);
     if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
