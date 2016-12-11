@@ -222,7 +222,6 @@ text-align: right;
   text-align: right;
 }
 .oki_table{
+  border: 1.5px solid grey;
   margin: auto;
-  align-items: center;
-  color: red;
 }
