@@ -21,7 +21,7 @@
   echo "<br>" . '<a href="../okistuff/casino.html">Casino</a>';
 
   $sql = "INSERT INTO casino VALUES ($fname, $lname, $winnings)";
-  if ($conn->query($sql,$conn) === TRUE) {
+  if ($conn->query($sql, $conn) === TRUE) {
       echo "New record created successfully";
   } else {
       echo "Error: " . $sql . "<br>" . $conn->error;
