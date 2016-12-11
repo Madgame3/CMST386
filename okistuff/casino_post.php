@@ -14,7 +14,7 @@
   $ssn = htmlspecialchars($_POST['ssn']);
   $winnings = htmlspecialchars($_POST['winnings']);
 
-  echo "Your information has been saved to our database"
+  echo "Your information has been saved to our database";
   echo $fname;
   echo $lname;
   echo $citizen;
