@@ -78,7 +78,7 @@
       $sql = "select fname, lname, winnings from casino";
       $result = mysqli_query($conn,"SELECT * FROM casino");
 
-    echo "<table border='1'>
+    echo "<table class='oki_table'>
     <tr>
     <th>Firstname</th>
     <th>Lastname</th>

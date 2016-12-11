@@ -83,7 +83,7 @@
       $sql = "INSERT INTO casino (fname, lname, winnings) VALUES ('$fname', '$lname', '$winnings')";
       if ($conn->query($sql) === TRUE) {
           echo "New record created successfully" . "<br>";
-          echo "<table border='1'>
+          echo "<table class='oki_table'>
           <tr>
           <th>Firstname</th>
           <th>Lastname</th>

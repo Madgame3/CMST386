@@ -216,8 +216,11 @@ text-align: right;
 }
 .customerinfo{
   margin: auto;
-  align-items: center; 
+  align-items: center;
 }
 .right{
   text-align: right;
+}
+.oki_table{
+  margin: auto;
 }
