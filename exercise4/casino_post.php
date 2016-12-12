@@ -93,7 +93,7 @@
       } else {
           echo "Error: " . $sql . "<br>" . $conn->error . $sql->error;
       }
-
+      mysqli_close($conn);
   ?>
 </article>
 </body>
