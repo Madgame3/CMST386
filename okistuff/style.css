@@ -1,3 +1,22 @@
 body{
 font-family: "Graphik Web","Arial","Helvetica","sans-serif";
 }
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav li{
+    float: none;
+    display: inline-block;
+}
+li:hover{
+    text-decoration: underline;
+    color: #f56400;
+}
+.container{
+  position: relative;
+}
+.container img{
+  width:100%;
+  opacity: .75;
+}
