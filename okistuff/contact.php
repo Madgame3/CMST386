@@ -13,7 +13,7 @@
        <p>We hope your expierence has been a positive one, but if it hasn't please let us know in the form below.</p>
      </div>
      <div class="flex-row">
-       <div id="contact-reasons">
+       <div id="contact-reasons" class="flex-box">
          <strong>Top 5 Things</strong>
          <ol>
            <li>Why are you so Awesome?</li>
@@ -23,7 +23,7 @@
            <li>Literally nothing works on this stupid site</li>
          </ol>
        </div>
-       <form id="contact-us" action="./contact_post.php" method="post">
+       <form id="contact-us" class="flex-box" action="./contact_post.php" method="post">
          <fieldset>
          Name: <br>
          <input type="text" name="fname" required><br>

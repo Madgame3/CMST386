@@ -90,10 +90,16 @@ article{
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: space-around;
+  align-content: space-around;
+
   margin-top: 2vh;
 }
 #contact-reasons{
   border: 1px solid black;
+}
+.flex-box{
+  margin-right: 2vw;
+  margin-top: 2vh;
 }
 
 #contact-us{
