@@ -93,7 +93,8 @@ article{
   justify-content: space-around;
 }
 .flex-box{
-  width: 350px;
+  min-width: 350px;
+  max-width: 85%;
 }
 
 #contact-reasons{
