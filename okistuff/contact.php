@@ -9,7 +9,6 @@
    ?>
    <article>
      <div class="flex-row">
-
        <div id="contact-reasons">
          <strong>Top 5 Things</strong>
          <ol>

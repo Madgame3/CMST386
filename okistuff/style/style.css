@@ -89,13 +89,13 @@ article{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 2vh;
 }
 #contact-reasons{
   border: 1px solid black;
 }
 
 #contact-us{
-  margin-top: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
