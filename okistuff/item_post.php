@@ -10,22 +10,36 @@
    <section>
      <?php
        require 'connect.php';
-       $name = mysqli_real_escape_string($conn, $_POST['name']);
+       $contact_name = mysqli_real_escape_string($conn, $_POST['contact_name']);
        $email = mysqli_real_escape_string($conn, $_POST['email']);
-       $comment = mysqli_real_escape_string($conn, $_POST['comment']);
-       $sql = "INSERT INTO comments (name, email, comment) VALUES ('$name', '$email', '$comment')";
+       $phone = mysqli_real_escape_string($conn, $_POST['phone']);
+       $title = mysqli_real_escape_string($conn, $_POST['title']);
+       $price = mysqli_real_escape_string($conn, $_POST['price']);
+       $category = mysqli_real_escape_string($conn, $_POST['category']);
+       $description = mysqli_real_escape_string($conn, $_POST['description']);
+       $image = $_FILES['image']);
+
+       $sql = "INSERT INTO comments (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$pphone','$price')";
        if ($conn->query($sql) === TRUE) {
            echo "<h1>New record created successfully</h1>";
            echo "<table class='php_table'>
            <tr>
+           <th>Title</th>
+           <th>Category</th>
+           <th>description</th>
            <th>Name</th>
-           <th>Email</th>
-           <th>Comment</th>
+           <th>email</th>
+           <th>phone</th>
+           <th>price</th>
            </tr>";
            echo "<tr>";
-           echo "<td>" . $_POST['name'] . "</td>";
+           echo "<td>" . $_POST['title'] . "</td>";
+           echo "<td>" . $_POST['category'] . "</td>";
+           echo "<td>" . $_POST['description'] . "</td>";
+           echo "<td>" . $_POST['contact_name'] . "</td>";
            echo "<td>" . $_POST['email'] . "</td>";
-           echo "<td>" . $_POST['comment'] . "</td>";
+           echo "<td>" . $_POST['phone'] . "</td>";
+           echo "<td>" . $_POST['price'] . "</td>";
            echo "</tr>";
            echo "</table>";
        } else {

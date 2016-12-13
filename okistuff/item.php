@@ -22,7 +22,7 @@
              </tr>
              <tr>
                <td>Name:</td>
-               <td><input type="text" name="user_name" placeholder="Stephen" required></td>
+               <td><input type="text" name="contact_name" placeholder="Stephen" required></td>
              </tr>
              <tr>
                <td>Email:</td>
@@ -66,7 +66,7 @@
              <tr>
                <td>Upload Image:</td>
                <td>
-                 <input type="file" name="image">
+                 <input type="file" name="image" ma>
                </td>
              </tr>
            </table>
