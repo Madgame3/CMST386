@@ -87,13 +87,10 @@ section{
   width: auto;
   border: 1px solid #F56400;
 }
-.php_table td,tr,th{
+.php_table td,th{
   border: 1px solid rgb(173, 174, 170);
   padding: 5px;
 }
-
-
-
 
 .flex-text{
   margin: auto;

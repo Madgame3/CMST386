@@ -22,23 +22,23 @@
              </tr>
              <tr>
                <td>Name:</td>
-               <td><input type="text" name="user_name" required></td>
+               <td><input type="text" name="user_name" placeholder="Stephen" required></td>
              </tr>
              <tr>
                <td>Email:</td>
-               <td><input type="email" name="email" required></td>
+               <td><input type="email" name="email" placeholder="admin@okistuff.com" required></td>
              </tr>
              <tr>
                <td>Phone:</td>
-               <td><input type="tel" name="phone"></td>
+               <td><input type="tel" name="phone" placeholder="080-4000-5900"></td>
              </tr>
              <tr>
                <td>Item Title:</td>
-               <td><input type="text" name="title" required></td>
+               <td><input type="text" name="title" placeholder="1999 Toyota Harrier White" required></td>
              </tr>
              <tr>
                <td>Item Price:</td>
-               <td><input type="text" name="price" required></td>
+               <td><input type="text" name="price" placeholder="$30" required></td>
              </tr>
              <tr>
                <td>Item Category:</td>
@@ -60,7 +60,7 @@
              <tr>
                <td>Description:</td>
                <td>
-                 <textarea name="description" rows="3" cols="30"></textarea>
+                 <textarea name="description" rows="3" cols="30" placeholder="Item Description goes here"></textarea>
                </td>
              </tr>
              <tr>
