@@ -9,8 +9,9 @@
    ?>
    <section>
      <h1>Posting an Item</h1>
+     <hr>
      <div>
-       <p>Selling an item is simple, file out the required fields below and submit, you're item will be posted for 30 days.</p>
+       <p>Selling an item is simple, fill out the required fields below and submit, you're item will be posted for 30 days.</p>
      </div>
      <form action="item_post.php" method="post">
        <fieldset>
