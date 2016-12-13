@@ -129,3 +129,10 @@ section h1{
     border-color: rgba(0, 0, 0, 0.1);
     color: #FFF;
 }
+.big-orange-button{
+  background-color: #F56400;
+  width: 50%;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #FFF;
+  margin-bottom:3vh;
+  }

@@ -70,8 +70,8 @@
                </td>
              </tr>
            </table>
-           <button class="orange-button" type="submit" value="submit" name="submit">Submit</button>
-           <button class="orange-button" type="reset" value="reset">Reset</button>
+           <button class="big-orange-button" type="submit" value="submit" name="submit">Submit</button>
+           <button class="big-orange-button" type="reset" value="reset">Reset</button>
      </form>
    </section>
    <?php
