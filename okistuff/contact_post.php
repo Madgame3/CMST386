@@ -10,9 +10,9 @@
    <section>
      <?php
        require 'connect.php';
-       $name = htmlspecialchars($_POST['name']);
-       $email = htmlspecialchars($_POST['email']);
-       $comment = htmlspecialchars($_POST['comment']);
+       $name = mysqli_real_escape_string($conn, $_POST['name']);
+       $email = mysqli_real_escape_string($conn, $_POST['email']);
+       $comment = mysqli_real_escape_string($conn, $_POST['comment']);
        $sql = "INSERT INTO comments (name, email, comment) VALUES ('$name', '$email', '$comment')";
        if ($conn->query($sql) === TRUE) {
            echo "<h1>New record created successfully</h1>";
