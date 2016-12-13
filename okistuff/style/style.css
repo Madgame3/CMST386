@@ -87,6 +87,7 @@ article{
 #contact-us{
   margin-top: 2vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: space-between;
   text-align: center;
