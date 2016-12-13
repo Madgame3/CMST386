@@ -89,6 +89,11 @@ article{
 article p{
   text-overflow:
 }
+.flex-text{
+  margin: auto;
+  width: 85%;
+  overflow: visible;
+}
 
 .flex-row{
   display: flex;
