@@ -8,9 +8,9 @@
       require 'container.php';
    ?>
    <article>
-     <form action="contact_post.html" method="post">
+     <form action="./contact_post.php" method="post">
        <fieldset>
-         <legend>Contact Us</legend>
+       <legend>Contact Us</legend>
        First Name: <br>
        <input type="text" name="fname" required><br><br>
        Last Name: <br>
@@ -23,7 +23,7 @@
        <input type="text" name="email" required><br><br>
        Question/Comments<br>
        <textarea name="question" rows="10" cols="30" required></textarea><br><br>
-       <input type="submit" value="submit">
+       <button class="orange-button" type="submit">Submit</button>
        </fieldset>
      </form>
    </article>
