@@ -8,9 +8,24 @@
       require 'container.php';
    ?>
    <article>
-     <h1>
-       New Items
-     </h1>
+     <form action="contact_post.html" method="post">
+       <fieldset>
+         <legend>Contact Us</legend>
+       First Name: <br>
+       <input type="text" name="fname" required><br><br>
+       Last Name: <br>
+       <input type="text" name="lname" required><br><br>
+       Home Phone:<br>
+       <input type="text" name="homephone"><br><br>
+       Cell Phone:<br>
+       <input type="text" name="cellphone"><br><br>
+       Email address:<br>
+       <input type="text" name="email" required><br><br>
+       Question/Comments<br>
+       <textarea name="question" rows="10" cols="30" required></textarea><br><br>
+       <input type="submit" value="submit">
+       </fieldset>
+     </form>
    </article>
  </body>
 </html>
