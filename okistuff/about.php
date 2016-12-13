@@ -16,29 +16,13 @@
     <a href="./index.html"><img alt="brand" src="./images/logo1.png"></a>
   </header>
   <nav class="navbar">
-      <ul>
-      <li><a href="#">Shop by category</a></li>
-      <li><a href="#">Post an Item</a></li>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">How to Use</a></li>
-      <li><a href="#">Contact Us</a></li>
-
-      <!--
-      <li><a href="#">Clothing & Accessories</a></li>
-      <li><a href="#">Crafts & Tools</a></li>
-      <li><a href="#">Electronics</a></li>
-      <li><a href="#">Entertainment</a></li>
-      <li><a href="#">Home & Living</a></li>
-      <li><a href="#">Kids & Baby</a></li>
-      <li><a href="#">Pets</a></li>
-      <li><a href="#">Business & Services</a></li>
-      <li><a href="#">Vehicles</a></li>
-    -->
-  </ul>
-  <span class="icon-bar"></span>
-  <span class="icon-bar"></span>
-  <span class="icon-bar"></span>
-</button>
+    <ul>
+      <li><a href="./shop.php">Shop by category</a></li>
+      <li><a href="./post.php">Post an Item</a></li>
+      <li><a href="./about.php">About Us</a></li>
+      <li><a href="./howto.php">How to Use</a></li>
+      <li><a href="./contact.php">Contact Us</a></li>
+    </ul>
   </nav>
   <div class="container">
     <div class="inner-text">
