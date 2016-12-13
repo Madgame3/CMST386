@@ -1,0 +1,12 @@
+.inner-text {
+    font-size: 2.65vw;
+    text-shadow: .5px .5px 0 black;
+}
+
+.inner-search input{
+  width: 50vw;
+  height: 3vh;
+  border-bottom-color: rgb(173, 174, 170);
+  text-align: center;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,57 @@
+.navbar{
+  margin-bottom: 1vh;
+  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5) ), url("./images/cover.jpg");
+  background-size: cover;
+}
+.navbar ul{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+.navbar li{
+  padding-top:5px;
+}
+.navbar a{
+  color: white;
+}
+.navbar a:hover{
+  color:white;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    min-height: 0;
+    background: white;
+    margin-bottom: 1vh;
+  }
+.inner-text p{
+  display: none;
+}
+.inner-search{
+  width: 100%;
+}
+.inner-search form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+.inner-search input{
+    box-sizing: border-box;
+    width: 75%;
+    height: 3vh;
+    border: 2px solid rgb(245,100,0);
+  }
+.inner-search button{
+  background-color: #F56400;
+  height: 3vh;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #FFF;
+}
+
+  article{
+    width: 100%;
+  }
