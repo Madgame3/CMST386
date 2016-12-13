@@ -80,6 +80,7 @@ article{
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
   background-color: white;
   border: 1px solid black;
 }
