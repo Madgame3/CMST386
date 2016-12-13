@@ -22,7 +22,7 @@
            <li>Literally nothing works on this stupid site</li>
          </ol>
        </div><div class="flex-box">
-       <form id="contact-us" class="flex-box" action="./contact_post.php" method="post">
+       <form id="contact-us" action="./contact_post.php" method="post">
          <fieldset>
          Name: <br>
          <input type="text" name="fname" required><br>
