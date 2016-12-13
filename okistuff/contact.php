@@ -21,7 +21,7 @@
            <li>Super Awesome!</li>
            <li>Literally nothing works on this stupid site</li>
          </ol>
-       </div>
+       </div><div class="flex-box">
        <form id="contact-us" class="flex-box" action="./contact_post.php" method="post">
          <fieldset>
          Name: <br>
@@ -33,6 +33,7 @@
          <button class="orange-button" type="submit">Submit</button>
         </fieldset>
        </form>
+     </div>
      </div>
    </article>
  </body>
