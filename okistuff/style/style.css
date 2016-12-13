@@ -81,6 +81,9 @@ section{
   border: 1px solid black;
   background: #f1f1f1;
 }
+section h1{
+  color: #F56400;
+}
 
 .php_table{
   margin: auto;
@@ -89,8 +92,7 @@ section{
   background-color: white;
 }
 .php_table th,td {
-  border-bottom: 1px solid #F56400;
-  border-right: 1px solid #F56400;
+  border: 1px solid black;
   padding: 5px;
 }
 
