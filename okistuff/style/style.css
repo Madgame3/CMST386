@@ -77,7 +77,7 @@ article{
   height: 75vh;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   background-color: white;
