@@ -17,8 +17,8 @@
        $price = mysqli_real_escape_string($conn, $_POST['price']);
        $category = mysqli_real_escape_string($conn, $_POST['category']);
        $description = mysqli_real_escape_string($conn, $_POST['description']);
-
-       $sql = "INSERT INTO comments (title, category, description, contact_name, email, phone, price) VALUES ('$title','$category','$description','$contact_name','$email','$pphone','$price')";
+       $image = $_FILES['image']);
+       $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$pphone','$price')";
        if ($conn->query($sql) === TRUE) {
            echo "<h1>New record created successfully</h1>";
            echo "<table class='php_table'>
