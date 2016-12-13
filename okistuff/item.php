@@ -18,7 +18,7 @@
            <table class="php_table">
              <tr>
                <th>Field</th>
-               <th>Input</th>
+               <th>Value</th>
              </tr>
              <tr>
                <td>Name:</td>
