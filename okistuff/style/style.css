@@ -86,6 +86,10 @@ article{
   background: #f1f1f1;
   overflow: auto;
 }
+article h1{
+  color: white;
+  text-shadow: 1px 1px 0 black;
+}
 
 .flex-row{
   display: flex;
