@@ -85,9 +85,13 @@ article{
 }
 
 #contact-us{
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
 }
 .orange-button{
     background-color: #F56400;
+    width: 35%;
     height: 3vh;
     border-color: rgba(0, 0, 0, 0.1);
     color: #FFF;
