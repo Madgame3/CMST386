@@ -71,6 +71,7 @@ a{
   text-align: center;
 }
 section{
+  display: inline;
   margin: auto;
   margin-top: 2vh;
   margin-bottom: 2vh;
@@ -80,7 +81,6 @@ section{
   background-color: white;
   border: 1px solid black;
   background: #f1f1f1;
-  overflow: overlay;
 }
 
 .php_table{
