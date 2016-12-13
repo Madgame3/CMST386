@@ -24,6 +24,7 @@
        <div class="flex-box">
        <form id="contact-us" action="./contact_post.php" method="post">
          <fieldset>
+           <legend>Comment Box</legend>
          Name: <br>
          <input type="text" name="fname" required><br>
          Email address:<br>

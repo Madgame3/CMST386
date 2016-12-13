@@ -93,12 +93,12 @@ article{
   justify-content: space-around;
 }
 .flex-box{
-  min-width: 45%;
-  max-width: 100%;
+  min-width: 65%;
+  max-width: 85%;
 }
 
 #contact-reasons{
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 1);
   text-align: left;
 }
 
