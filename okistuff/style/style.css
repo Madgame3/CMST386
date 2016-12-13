@@ -83,7 +83,7 @@ article{
   text-align: center;
   background-color: white;
   border: 1px solid black;
-  background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.1) );
+  background: #f1f1f1;
 }
 
 .flex-row{
