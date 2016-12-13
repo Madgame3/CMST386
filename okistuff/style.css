@@ -4,10 +4,6 @@ background-color: white;
 box-sizing: border-box;
 }
 header{
-  border-bottom: 1px solid #E1E3DF;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(225, 227, 223);
 }
 a{
   color: #333;
@@ -15,6 +11,10 @@ a{
   padding: 10px;
 }
 .navbar{
+  border-top: 1px solid #E1E3DF;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(225, 227, 223);
   background-color: #f1f1f1;
   width: 100%;
   border-bottom: 1px solid #E1E3DF;
