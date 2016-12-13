@@ -86,9 +86,8 @@ article{
   background: #f1f1f1;
   overflow: auto;
 }
-article h1{
-  color: white;
-  text-shadow: 1px 1px 0 black;
+article p{
+  text-overflow:
 }
 
 .flex-row{
@@ -97,6 +96,9 @@ article h1{
   flex-wrap: wrap-reverse;
   justify-content: space-around;
   margin-top: 2vh;
+}
+flex-box{
+  padding: 5px;
 }
 
 #contact-reasons{
