@@ -51,6 +51,9 @@
   border-color: rgba(0, 0, 0, 0.1);
   color: #FFF;
 }
-article{
+section{
     width: 100%;
-  }
+}
+footer{
+  display: none;
+}
