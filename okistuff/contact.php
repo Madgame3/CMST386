@@ -10,7 +10,7 @@
    <article>
      <div>
        <h1>Contacting Us</h1>
-       <p>We hope your expierence has been a positive one, but if it hasn't please let us know in the form below.</p>
+       <p>We hope your expierence has been a positive one, but if it hasn't please let us know about and what we can do to help in the form below.</p>
      </div>
      <div class="flex-row">
        <div id="contact-reasons" class="flex-box">
