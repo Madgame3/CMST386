@@ -7,7 +7,7 @@
       require 'nav.php';
       require 'container.php';
    ?>
-   <article>
+   <section>
        <h1>Contacting Us</h1>
        <hr>
      <div class="flex-row">
@@ -37,6 +37,6 @@
        </form>
       </div>
      </div>
-   </article>
+   </section>
  </body>
 </html>
