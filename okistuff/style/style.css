@@ -81,9 +81,6 @@ article{
   background: #f1f1f1;
   overflow: visible;
 }
-article h1{
-  background: white;
-}
 .flex-text{
   margin: auto;
   width: 85%;
