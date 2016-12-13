@@ -13,7 +13,7 @@
        $name = htmlspecialchars($_POST['name']);
        $email = htmlspecialchars($_POST['email']);
        $comment = htmlspecialchars($_POST['comment']);
-       $sql = "INSERT INTO comments (name, email, comment) VALUES ('$name', '$email', '$comment')";
+       $sql = 'INSERT INTO comments (name, email, comment) VALUES ("$name", "$email", "$comment")';
        if ($conn->query($sql) === TRUE) {
            echo "<h1>New record created successfully</h1>";
            echo "<table class='oki_table'>
