@@ -83,7 +83,9 @@ section{
 }
 section h1{
   color: #F56400;
-  padding: 7.5px;
+}
+section #item-paragraph{
+  margin: 7.5px;
 }
 
 .php_table{
@@ -127,6 +129,7 @@ section h1{
 .orange-button{
     background-color: #F56400;
     width: 173px;
+    height: 4vh;
     border-color: rgba(0, 0, 0, 0.1);
     color: #FFF;
 }
