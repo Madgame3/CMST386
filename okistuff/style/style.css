@@ -97,9 +97,10 @@ article{
 #contact-reasons{
   border: 1px solid black;
 }
-.flex-box{
+.flex-box {
   margin-right: 2vw;
   margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 #contact-us{
