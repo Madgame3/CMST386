@@ -23,11 +23,11 @@
        </div>
        <form id="contact-us" action="./contact_post.php" method="post">
          Name: <br>
-         <input type="text" name="fname" required><br><br>
+         <input type="text" name="fname" required><br>
          Email address:<br>
-         <input type="text" name="email" required><br><br>
+         <input type="text" name="email" required><br>
          Question/Comments<br>
-         <textarea name="question" rows="10" cols="30" required></textarea><br><br>
+         <textarea name="question" rows="10" cols="30" required></textarea><br>
          <button class="orange-button" type="submit">Submit</button>
        </form>
      </div>
