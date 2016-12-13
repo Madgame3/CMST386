@@ -89,7 +89,8 @@ article{
 .flex-row{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
 }
 .flex-box{
   width: 350px;
