@@ -14,7 +14,6 @@
        <p>Selling an item is simple, fill out the required fields below and submit, you're item will be posted for 30 days.</p>
      </div>
      <form action="item_post.php" method="post">
-       <fieldset>
          <br>
            <table class="php_table">
              <tr>
@@ -71,7 +70,6 @@
                </td>
              </tr>
            </table>
-           </fieldset>
            <button type="submit" value="submit" name="submit">Submit</button>
            <button type="reset" value="reset">Reset</button>
      </form>
