@@ -87,8 +87,8 @@ section{
   width: auto;
   border: 1px solid #F56400;
 }
-.php_table tr,th{
-  border: 1px solid rgb(173, 174, 170);
+.php_table th,td {
+  border: 1px solid #F56400;
   padding: 5px;
 }
 
