@@ -9,10 +9,10 @@ a{
 .navbar ul{
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   padding-top: 5px;
 }
 .navbar li{
+  margin-left: -6%;
   padding-top:5px;
 }
 .navbar a{
