@@ -88,6 +88,7 @@ article{
   margin-top: 2vh;
   display: flex;
   justify-content: center;
+  align-content: space-between;
 }
 .orange-button{
     background-color: #F56400;
