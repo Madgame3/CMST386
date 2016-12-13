@@ -12,7 +12,7 @@
      <div class="flex-row">
        <div id="contact-reasons" class="flex-box">
          <p>We hope your expierence has been a positive one, but if it hasn't please let us know about and what we can do to help in the form below.</p>
-         <strong>Top 5 Things</strong>
+         <strong>Top 5 Comments</strong>
          <ol>
            <li>Why are you so Awesome?</li>
            <li>How can I be more like you?</li>

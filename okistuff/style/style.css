@@ -89,12 +89,12 @@ article{
 .flex-row{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .flex-box{
-  min-width: 50%;
-  max-width: 85%;
+  min-width: 45%;
+  max-width: 100%;
 }
 
 #contact-reasons{
