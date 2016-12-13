@@ -93,7 +93,7 @@ article{
   justify-content: space-around;
 }
 .flex-box{
-  min-width: 350px;
+  min-width: 50%;
   max-width: 85%;
 }
 
