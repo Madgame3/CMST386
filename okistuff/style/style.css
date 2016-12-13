@@ -78,7 +78,7 @@ article{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   text-align: center;
   background-color: white;
@@ -89,6 +89,9 @@ article{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+#contact-reasons{
+  border: 1px solid black;
 }
 
 #contact-us{

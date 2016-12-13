@@ -8,10 +8,9 @@
       require 'container.php';
    ?>
    <article>
-     <h2>Contact Us</h2>
-     <p>We're Kind of lonely so we love it when we get to hear you're feedback</p>
      <div class="flex-row">
-       <div>
+
+       <div id="contact-reasons">
          <strong>Top 5 Things</strong>
          <ol>
            <li>Why are you so Awesome?</li>
@@ -22,6 +21,7 @@
          </ol>
        </div>
        <form id="contact-us" action="./contact_post.php" method="post">
+         <fieldset>
          Name: <br>
          <input type="text" name="fname" required><br>
          Email address:<br>
@@ -29,6 +29,7 @@
          Question/Comments<br>
          <textarea name="question" rows="10" cols="30" required></textarea><br>
          <button class="orange-button" type="submit">Submit</button>
+        </fieldset>
        </form>
      </div>
    </article>
