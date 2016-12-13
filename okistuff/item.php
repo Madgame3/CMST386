@@ -11,7 +11,7 @@
      <h1>Posting an Item</h1>
      <hr>
      <div>
-       <p>Selling an item is simple, fill out the required fields below and submit, you're item will be posted for 30 days.</p>
+       <p>Selling an item is has never been simpler, or more Free. Fill out the required fields below and submit, you're item will be posted for 30 days. Some Items are required, others are optional. Please keep all Posts PG-13.</p>
      </div>
      <form action="item_post.php" method="post">
          <br>
