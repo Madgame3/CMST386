@@ -23,9 +23,9 @@
            <th>Comment</th>
            </tr>";
            echo "<tr>";
-           echo "<td>" . $name . "</td>";
-           echo "<td>" . $email . "</td>";
-           echo "<td>" . $comment . "</td>";
+           echo "<td>" . $_POST['name'] . "</td>";
+           echo "<td>" . $_POST['email'] . "</td>";
+           echo "<td>" . $_POST['comment'] . "</td>";
            echo "</tr>";
            echo "</table>";
        } else {
