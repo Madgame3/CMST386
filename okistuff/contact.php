@@ -27,11 +27,11 @@
          <fieldset>
            <legend>Comment Box</legend>
          Name: <br>
-         <input type="text" name="fname" required><br>
+         <input type="text" name="name" required><br>
          Email address:<br>
          <input type="text" name="email" required><br>
          Question/Comments<br>
-         <textarea name="question" rows="10" cols="30" required></textarea><br>
+         <textarea name="comment" rows="10" cols="30" required></textarea><br>
          <button class="orange-button" type="submit">Submit</button>
         </fieldset>
        </form>
