@@ -85,6 +85,7 @@ section{
 .php_table{
   margin: auto;
   width: auto;
+  border: 1px solid black;
 }
 
 
