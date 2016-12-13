@@ -87,6 +87,9 @@ section{
   width: auto;
   border: 1px solid black;
 }
+.php_table td,tr,th{
+  border: 1px solid black;
+}
 
 
 
