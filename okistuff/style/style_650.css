@@ -54,9 +54,7 @@
 section{
     width: 100%;
 }
-footer {
-  display: none;
-}
-footer .navbar{
+
+footer .navbar ul{
   display: none;
 }
