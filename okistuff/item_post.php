@@ -20,8 +20,8 @@
        $description = mysqli_real_escape_string($conn, $_POST['description']);
        */
        Echo "Origninal Name: " . $_FILES['image']['name'];
-       Echo "file type: " . $_FILES['my-file']['type'];
-       Echo "size: ". $_FILES['my-file']['size'];
+       Echo "file type: " . $_FILES['image']['type'];
+       Echo "size: ". $_FILES['image']['size'];
 
        /*
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
