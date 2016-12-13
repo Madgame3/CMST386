@@ -22,7 +22,6 @@
            <li>Literally nothing works on this stupid site</li>
          </ol>
        </div>
-       <hr/>
        <div class="flex-box">
        <form id="contact-us" action="./contact_post.php" method="post">
          <fieldset>

@@ -91,6 +91,7 @@ article{
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-content: center;
 }
 .flex-box{
   min-width: 65%;
@@ -110,8 +111,7 @@ article{
 }
 .orange-button{
     background-color: #F56400;
-    width: 35%;
-    height: 3vh;
+    width: 173px;
     border-color: rgba(0, 0, 0, 0.1);
     color: #FFF;
 }
