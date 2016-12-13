@@ -75,6 +75,7 @@
      <?php
         if(isset($_POST['submit'])){
           require 'connect.php';
+          echo $_FILES;
           echo "Origninal Name: " . $_FILES['image']['name'];
           echo "file type: " . $_FILES['image']['type'];
           echo "size: ". $_FILES['image']['size'];
