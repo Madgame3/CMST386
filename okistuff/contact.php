@@ -8,6 +8,10 @@
       require 'container.php';
    ?>
    <article>
+     <div>
+       <h1>Contacting Us</h1>
+       <p>We hope your expierence has been a positive one, but if it hasn't please let us know in the form below.</p>
+     </div>
      <div class="flex-row">
        <div id="contact-reasons">
          <strong>Top 5 Things</strong>
