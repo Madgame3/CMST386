@@ -16,7 +16,7 @@
        $sql = "INSERT INTO comments (name, email, comment) VALUES ('$name', '$email', '$comment')";
        if ($conn->query($sql) === TRUE) {
            echo "<h1>New record created successfully</h1>";
-           echo "<table class='oki_table'>
+           echo "<table class='php_table'>
            <tr>
            <th>Name</th>
            <th>Email</th>

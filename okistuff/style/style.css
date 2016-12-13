@@ -81,6 +81,15 @@ section{
   background: #f1f1f1;
   overflow: visible;
 }
+
+.php_table{
+  margin: auto;
+  width: auto;
+}
+
+
+
+
 .flex-text{
   margin: auto;
   width: 85%;
