@@ -16,7 +16,7 @@
      <form action="item_post.php" method="post">
        <fieldset>
          <br>
-           <table>
+           <table class="php_table">
              <tr>
                <th>Field</th>
                <th>Input</th>
