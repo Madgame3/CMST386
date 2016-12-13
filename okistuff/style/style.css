@@ -85,10 +85,10 @@ section{
 .php_table{
   margin: auto;
   width: auto;
-  border: 1px solid black;
+  border: 1px solid #F56400;
 }
 .php_table td,tr,th{
-  border: 1px solid black;
+  border: 1px solid rgb(173, 174, 170);
   padding: 5px;
 }
 
