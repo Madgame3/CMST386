@@ -13,7 +13,7 @@
      <div>
        <p id="item-paragraph">Selling an item is has never been simpler, or more Free. Fill out the required fields below and submit, you're item will be posted for 30 days. Some Items are required, others are optional. Please keep all Posts PG-13.</p>
      </div>
-     <form action="item.php" method="post">
+     <form action="item.php" method="post" enctype="multipart/form-data">
          <br>
            <table class="php_table">
              <tr>
@@ -66,7 +66,7 @@
              <tr>
                <td>Upload Image:</td>
                <td>
-                 <input type="file" name="image" size="50" maxlength="25">
+                 <input type="file" name="image" id="image">
                </td>
              </tr>
            </table>
