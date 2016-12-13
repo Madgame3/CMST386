@@ -9,6 +9,7 @@
    ?>
    <article>
        <h1>Contacting Us</h1>
+       <hr>
      <div class="flex-row">
        <div id="contact-reasons" class="flex-box">
          <p>We hope your expierence has been a positive one, but if it hasn't please let us know about and what we can do to help in the form below.</p>
@@ -21,7 +22,7 @@
            <li>Literally nothing works on this stupid site</li>
          </ol>
        </div>
-       <hr>
+       <hr/>
        <div class="flex-box">
        <form id="contact-us" action="./contact_post.php" method="post">
          <fieldset>
