@@ -66,7 +66,7 @@
              <tr>
                <td>Upload Image:</td>
                <td>
-                 <input type="file" name="image">
+                 <input type="file" name="image" size="50" maxlength="25">
                </td>
              </tr>
            </table>
