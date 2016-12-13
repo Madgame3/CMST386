@@ -8,6 +8,8 @@
       require 'container.php';
    ?>
    <article>
+     <div>
+     </div>
      <form id="contact-us" action="./contact_post.php" method="post">
        <fieldset>
        <legend>Contact Us</legend>
