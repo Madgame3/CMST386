@@ -7,5 +7,8 @@
       require 'nav.php';
       require 'container.php';
    ?>
+   <article>
+
+   </article>
  </body>
 </html>

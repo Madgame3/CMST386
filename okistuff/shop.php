@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" media="screen and (max-width:975px)" href="./style_975.css">
-  <link rel="stylesheet" media="screen and (max-width:650px)" href="./style_650.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" media="screen and (max-width:975px)" href="./style/style_975.css">
+  <link rel="stylesheet" media="screen and (max-width:650px)" href="./style/style_650.css">
   <link rel="icon" href="./images/favicon.png">
 </head>
   <title>OkiStuff.com</title>
