@@ -69,10 +69,9 @@
                  <input type="file" name="image">
                </td>
              </tr>
-             <button class="orange-button" type="submit" value="submit" name="submit">Submit</button>
-             <button class="orange-button" type="reset" value="reset">Reset</button>
            </table>
-
+           <button class="orange-button" type="submit" value="submit" name="submit">Submit</button>
+           <button class="orange-button" type="reset" value="reset">Reset</button>
      </form>
    </section>
    <?php
