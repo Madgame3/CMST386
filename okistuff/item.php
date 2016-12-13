@@ -70,6 +70,7 @@
                </td>
              </tr>
            </table>
+           <br>
            <button type="submit" value="submit" name="submit">Submit</button>
            <button type="reset" value="reset">Reset</button>
      </form>
