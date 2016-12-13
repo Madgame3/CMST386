@@ -88,7 +88,6 @@ section h1{
 .php_table{
   margin: auto;
   width: auto;
-  border: 1px solid #F56400;
   background-color: white;
 }
 .php_table th,td {
