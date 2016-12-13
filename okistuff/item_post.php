@@ -17,9 +17,8 @@
        $price = mysqli_real_escape_string($conn, $_POST['price']);
        $category = mysqli_real_escape_string($conn, $_POST['category']);
        $description = mysqli_real_escape_string($conn, $_POST['description']);
-       $image = file_get_contents($_FILES['image']);
+       $image = file_get_contents($_POST['image']);
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
-       echo $_Files['image'];
        if ($conn->query($sql) === TRUE) {
            echo "<h1>New record created successfully</h1>";
            echo "<table class='php_table'>
