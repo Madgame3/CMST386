@@ -71,8 +71,8 @@
              </tr>
            </table>
            <br>
-           <button type="submit" value="submit" name="submit">Submit</button>
-           <button type="reset" value="reset">Reset</button>
+           <button class="orange-button" type="submit" value="submit" name="submit">Submit</button>
+           <button class="orange-button" type="reset" value="reset">Reset</button>
      </form>
    </section>
    <?php
