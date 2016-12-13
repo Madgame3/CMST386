@@ -21,16 +21,16 @@
            <li>Literally nothing works on this stupid site</li>
          </ol>
        </div>
+       <form id="contact-us" action="./contact_post.php" method="post">
+         Name: <br>
+         <input type="text" name="fname" required><br><br>
+         Email address:<br>
+         <input type="text" name="email" required><br><br>
+         Question/Comments<br>
+         <textarea name="question" rows="10" cols="30" required></textarea><br><br>
+         <button class="orange-button" type="submit">Submit</button>
+       </form>
      </div>
-     <form id="contact-us" action="./contact_post.php" method="post">
-       Name: <br>
-       <input type="text" name="fname" required><br><br>
-       Email address:<br>
-       <input type="text" name="email" required><br><br>
-       Question/Comments<br>
-       <textarea name="question" rows="10" cols="30" required></textarea><br><br>
-       <button class="orange-button" type="submit">Submit</button>
-     </form>
    </article>
  </body>
 </html>
