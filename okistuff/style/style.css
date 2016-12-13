@@ -84,6 +84,12 @@ article{
   border: 1px solid black;
 }
 
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #contact-us{
   margin-top: 2vh;
   display: flex;

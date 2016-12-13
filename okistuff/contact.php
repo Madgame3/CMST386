@@ -8,7 +8,7 @@
       require 'container.php';
    ?>
    <article>
-     <div>
+     <div class="flex-row">
        <h2>Contact Us</h2>
        <p>We're Kind of lonely so we love it when we get to hear you're feedback</p>
        <div>
