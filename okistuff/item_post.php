@@ -22,6 +22,7 @@
        Echo "Origninal Name: " . $_FILES['image']['name'];
        Echo "file type: " . $_FILES['image']['type'];
        Echo "size: ". $_FILES['image']['size'];
+       echo "error codes". $_FILES['my-file']['error'];
 
        /*
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
