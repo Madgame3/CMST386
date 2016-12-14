@@ -67,7 +67,7 @@
              <tr>
                <td>Upload Image:</td>
                <td>
-                 <input type="file" name="image" id="image" onchange="itemCheck()">
+                 <input type="file" name="image" id="image">
                </td>
              </tr>
            </table>
