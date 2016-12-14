@@ -7,6 +7,7 @@
       require 'nav.php';
       require 'container.php';
    ?>
+   <script type="text/javascript" src="./scripts/item.js"></script>
    <section>
      <h1>Posting an Item</h1>
      <hr>
@@ -33,14 +34,6 @@
                <td><input type="tel" name="phone" placeholder="080-4000-5900"></td>
              </tr>
              <tr>
-               <td>Item Title:</td>
-               <td><input type="text" name="title" placeholder="1999 Toyota Harrier White" required></td>
-             </tr>
-             <tr>
-               <td>Item Price:</td>
-               <td><input type="text" name="price" placeholder="$30" required></td>
-             </tr>
-             <tr>
                <td>Item Category:</td>
                <td>
                  <select name="category" required>
@@ -56,6 +49,14 @@
                    <option value="Vehicles">Vehicles</option>
                  </select>
                </td>
+             </tr>
+             <tr>
+               <td>Item Title:</td>
+               <td><input type="text" name="title" placeholder="1999 Toyota Harrier White" onchange="itemCheck()" required></td>
+             </tr>
+             <tr>
+               <td>Item Price:</td>
+               <td><input type="text" name="price" placeholder="$30" required></td>
              </tr>
              <tr>
                <td>Description:</td>
@@ -76,5 +77,6 @@
    <?php
       require 'footer.php';
     ?>
+
  </body>
 </html>
