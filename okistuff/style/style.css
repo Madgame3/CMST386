@@ -151,7 +151,6 @@ section #item-paragraph{
 .php_image{
   margin-top: 10px;
   width: 40%;
-
 }
 .howto-text{
   width: 50%;
@@ -159,7 +158,7 @@ section #item-paragraph{
 }
 .about-text{
   text-align: left;
-  font-size: 2em;
+  font-size: 1.5em;
   padding-left: 15px;
   padding-right: 15px;
 }
