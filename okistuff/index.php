@@ -10,7 +10,9 @@
    <section>
      <h1>New Items</h1>
      <hr>
-     
+    <div id="item-flex-box">
+      
+    </div>
    </section>
    <?php
       require 'footer.php';
