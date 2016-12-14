@@ -88,3 +88,6 @@ section #item-paragraph{
   font-size: 1em;
   text-align: left;
 }
+.php_large_only{
+  display: none;
+}
