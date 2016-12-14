@@ -150,5 +150,6 @@ section #item-paragraph{
 
 }
 .howto-text{
-  width 50%;
+  width: 50%;
+  margin: auto;
 }

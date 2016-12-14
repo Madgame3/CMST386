@@ -15,3 +15,7 @@ section{
   padding-bottom: 2vh;
   border: none;
 }
+.howto-text{
+  width: 80%;
+  margin: auto;
+}
