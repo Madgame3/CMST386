@@ -7,10 +7,12 @@
       require 'nav.php';
       require 'container.php';
    ?>
-   <article>
-     <h1>
-       New Items
-     </h1>
-   </article>
+   <section>
+     <h1>About Us</h1>
+     <strong>SURE, WE LOVE PUPPIES AND SUNNY DAYS AND WALKS ON THE BEACH, BUT OUR REAL LOVE IS TOILET PAPER. WHY, YOU MIGHT ASK?</strong>
+   </section>
+   <?php
+      require 'footer.php';
+    ?>
  </body>
 </html>
