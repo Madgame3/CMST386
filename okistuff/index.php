@@ -18,17 +18,12 @@
         if($result->num_rows > 0){
           while($row = $result->fetch_assoc()){
             $image = base64_encode($row['image']);
-            if($image == NULL){
-                Echo "THIS ISN'T GOING TO Work";
-              }
-            else{
               echo "<div class='item-box'>";
               echo "<div class='item-box-title'>".$row['title']."</div>";
               echo "<div class='item-box-image'>";
               echo "<img src='data:image/png;base64,". $image ."' alt='item for sale'/>"."</div>";
               echo "<div class='item-box-time'><p> Price: ".$row['price']."</p></div>";
               echo "</div>";
-            }
             //"<img src='data:image/jpeg;base64',". base64_encode(stream_get_contents($row['image']))."/>";
           }
         }
