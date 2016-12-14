@@ -18,6 +18,7 @@ if (!window.FileReader) {
       document.getElementsByName("submit").disabled = true;
       }
     else{
+      console.log("im renabling");
       document.getElementsByName("submit").disabled = false;
     }
   }
