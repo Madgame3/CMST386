@@ -22,7 +22,7 @@
 
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
        if ($conn->query($sql) === TRUE) {
-           echo "<h1>New record created successfully</h1> <hr>";
+           echo "<h1>New record created successfully</h1><hr>";
            echo "<table class='php_table php_large_only'>
            <tr>
            <th>Title</th>
