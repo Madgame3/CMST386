@@ -43,7 +43,7 @@
              <tr>
                <td>Item Category:</td>
                <td>
-                 <select name="category" placeholder="Please Select One" required>
+                 <select name="category" required>
                    <option value="">Select One</option>
                    <option value="Clothing & Accessories">Clothing & Accessories</option>
                    <option value="Crafts & Tools">Crafts & Tools</option>
