@@ -52,7 +52,7 @@
              </tr>
              <tr>
                <td>Item Title:</td>
-               <td><input type="text" name="title" placeholder="1999 Toyota Harrier White" onchange="itemCheck()" required></td>
+               <td><input type="text" name="title" placeholder="1999 Toyota Harrier White" required></td>
              </tr>
              <tr>
                <td>Item Price:</td>

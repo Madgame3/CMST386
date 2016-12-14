@@ -10,6 +10,7 @@
    <section>
      <h1>New Items</h1>
      <hr>
+     
    </section>
    <?php
       require 'footer.php';
