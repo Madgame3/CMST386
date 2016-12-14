@@ -200,6 +200,7 @@ width: 100%;
   background-color: white;
   margin: 10px;
   font-size: 1.3em;
+  padding-top:5px;
 }
 .category-box img{
   max-width: 85%;
