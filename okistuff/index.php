@@ -26,7 +26,7 @@
               echo "<div class='item-box-title'>".$row['title']."</div>";
               echo "<div class='item-box-image'>";
               echo "<img src='data:image/png;base64,". $image ."' alt='item for sale'/>"."</div>";
-              echo "<div class='item-box-time'><p>".$row['price']."</p>".$row['date']."</div>";
+              echo "<div class='item-box-time'><p>".$row['price'].$row['date']."</p></div>";
               echo "</div>";
             }
             //"<img src='data:image/jpeg;base64',". base64_encode(stream_get_contents($row['image']))."/>";
