@@ -88,7 +88,10 @@ section h1{
   font-size: 3vw;
 }
 section #item-paragraph{
-  margin: 7.5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 150%;
+  text-align: left;
 }
 
 .php_table{
@@ -159,5 +162,4 @@ section #item-paragraph{
   font-size: 1.5vw;
   padding-left: 15px;
   padding-right: 15px;
-}
 }
