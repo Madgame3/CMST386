@@ -27,7 +27,6 @@
            <tr>
            <th>Title</th>
            <th>Category</th>
-           <th>description</th>
            <th>Name</th>
            <th>email</th>
            <th>phone</th>
@@ -36,7 +35,6 @@
            echo "<tr>";
            echo "<td>" . $_POST['title'] . "</td>";
            echo "<td>" . $_POST['category'] . "</td>";
-           echo "<td>" . $_POST['description'] . "</td>";
            echo "<td>" . $_POST['contact_name'] . "</td>";
            echo "<td>" . $_POST['email'] . "</td>";
            echo "<td>" . $_POST['phone'] . "</td>";
