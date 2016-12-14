@@ -18,7 +18,7 @@ section{
 section #item-paragraph{
   padding-left: 3%;
   padding-right: 3%;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: left;
 }
 .howto-text{
@@ -27,7 +27,7 @@ section #item-paragraph{
 }
 .about-text{
   text-align: left;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding-left: 10px;
   padding-right:10px;
 }
