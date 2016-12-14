@@ -48,12 +48,9 @@
        }
        $data = base64_decode($image);
        $im = imagecreatefromstring($data);
-       if($im !== false){
          header('Content-Type: image/jpeg');
          imagejpeg($im);
          imagedestroy($im);
-       }
-       echo $im;
        echo "<br>"."Origninal Name: " . $_FILES['image']['name'] . "<br>";
        echo "file type: " . $_FILES['image']['type'] . "<br>";
        echo "size: ". $_FILES['image']['size'] . "<br>";
