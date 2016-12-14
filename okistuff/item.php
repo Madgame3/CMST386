@@ -71,7 +71,7 @@
                </td>
              </tr>
            </table>
-           <button class="big-orange-button" type="submit" value="submit" name="submit">Submit</button>
+           <button class="big-orange-button" id="submit" type="submit" value="submit" name="submit">Submit</button>
      </form>
    </section>
    <?php

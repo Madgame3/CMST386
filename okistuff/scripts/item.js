@@ -15,11 +15,11 @@ if (!window.FileReader) {
     file = input.files[0];
     if(file.size > 1048576 ){
       alert("That File is Huge!, please compress and try again");
-      document.getElementsByName("submit").setAttribute("disabled","disabled");
+      document.getElementById("submit").setAttribute("disabled","disabled");
       }
     else{
       console.log("im renabling");
-      document.getElementsByName("submit").removeAttribute("disabled");
+      document.getElementById("submit").removeAttribute("disabled");
     }
   }
 }
