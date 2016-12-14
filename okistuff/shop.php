@@ -10,7 +10,7 @@
    <section id="index-page">
      <h1>Category</h1>
      <hr>
-     <div>
+     <div class="item-flex-box">
        <div class="category-box"><a href="#">Clothing & Accessories</a></div>
        <div class="category-box"><a href="#">Crafts & Tools</a></div>
        <div class="category-box"><a href="#">Electronics</a></div>
