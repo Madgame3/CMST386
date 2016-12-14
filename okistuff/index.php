@@ -21,7 +21,6 @@
             $date1 = time();
             $date2 = strtotime($row['date']);
             $interval = date_diff($date1, $date2);
-            $hour = $interval->format('%h');
             if($image == NULL){
                 Echo "THIS ISN'T GOING TO Work";
               }
@@ -30,7 +29,7 @@
               echo "<div class='item-box-title'>".$row['title']."</div>";
               echo "<div class='item-box-image'>";
               echo "<img src='data:image/png;base64,". $image ."' alt='item for sale'/>"."</div>";
-              echo "<div class='item-box-time'><p>".$row['price']." - "."Submitted:".$hour."</p></div>";
+              echo "<div class='item-box-time'><p>".$row['price']." Submitted: ".$interval."</p></div>";
               echo "</div>";
             }
             //"<img src='data:image/jpeg;base64',". base64_encode(stream_get_contents($row['image']))."/>";
