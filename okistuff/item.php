@@ -13,7 +13,7 @@
      <div>
        <p id="item-paragraph">Selling an item is has never been simpler, or more Free. Fill out the required fields below and submit, you're item will be posted for 30 days. Some Items are required, others are optional. Please keep all Posts PG-13.</p>
      </div>
-     <form action="item.php" method="post" enctype="multipart/form-data">
+     <form action="item_post.php" method="post" enctype="multipart/form-data">
          <br>
            <table class="php_table">
              <tr>
@@ -72,16 +72,6 @@
            </table>
            <button class="big-orange-button" type="submit" value="submit" name="submit">Submit</button>
      </form>
-     <?php
-        if(isset($_POST['submit'])){
-          require 'connect.php';
-          echo $_FILES;
-          echo "Origninal Name: " . $_FILES['image']['name'];
-          echo "file type: " . $_FILES['image']['type'];
-          echo "size: ". $_FILES['image']['size'];
-          echo "error codes". $_FILES['image']['error'];
-        }
-      ?>
    </section>
    <?php
       require 'footer.php';

@@ -10,7 +10,7 @@
    <section>
      <?php
        require 'connect.php';
-       /*
+
        $contact_name = mysqli_real_escape_string($conn, $_POST['contact_name']);
        $email = mysqli_real_escape_string($conn, $_POST['email']);
        $phone = mysqli_real_escape_string($conn, $_POST['phone']);
@@ -18,13 +18,15 @@
        $price = mysqli_real_escape_string($conn, $_POST['price']);
        $category = mysqli_real_escape_string($conn, $_POST['category']);
        $description = mysqli_real_escape_string($conn, $_POST['description']);
-       */
-       Echo "Origninal Name: " . $_FILES['image']['name'];
-       Echo "file type: " . $_FILES['image']['type'];
-       Echo "size: ". $_FILES['image']['size'];
-       echo "error codes". $_FILES['image']['error'];
+       $image = addslashes(file_get_contents($_FILES['image']['tmp_name']));
 
-       /*
+       echo "Origninal Name: " . $_FILES['image']['name'];
+       echo "file type: " . $_FILES['image']['type'];
+       echo "size: ". $_FILES['image']['size'];
+       echo "error codes". $_FILES['image']['error'];
+       echo "location on server". $_FILES['image']['tmp_name']
+
+
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
        if ($conn->query($sql) === TRUE) {
            echo $image;
@@ -51,7 +53,7 @@
            echo "</table>";
        } else {
            echo "Error: " . $sql . "<br>" . $conn->error . $sql->error;
-       }*/
+       }
       mysqli_close($conn);
       ?>
    </section>
