@@ -12,7 +12,7 @@
      <h1>Posting an Item</h1>
      <hr>
      <div>
-       <p id="item-paragraph">Selling an item is has never been simpler, or more Free. Fill out the required fields below and submit, you're item will be posted for 30 days. Some Items are required, others are optional. Please keep all Posts PG-13.</p>
+       <p id="item-paragraph">Selling an item is has never been simpler, or more free. Fill out the required fields below and submit, you're item will be posted for 30 days. Some Items are required, others are optional. Please keep all posts PG-13.</p>
      </div>
      <form action="item_post.php" method="post" enctype="multipart/form-data">
          <br>
