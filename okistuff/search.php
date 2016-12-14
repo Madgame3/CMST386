@@ -14,6 +14,7 @@
       <?php
         require 'connect.php';
           $search = mysqli_real_escape_string($conn, $_POST['search']);
+          echo $seach;
           $sql = "select title,price,date,image from items where category='Pets' order by date desc limit 16";
         $result = $conn->query($sql);
         if($result->num_rows > 0){
