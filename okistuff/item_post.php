@@ -21,7 +21,7 @@
        $bigimage = addslashes(file_get_contents($_FILES['image']['tmp_name']));
        $image = imagecreatefromstring(base64_decode($image));
        $image = imagescale($image,500);
-       $image = addslashes(file_get_contents($image))
+       $image = addslashes(file_get_contents($image));
 
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
        if ($conn->query($sql) === TRUE) {
