@@ -3,39 +3,28 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"><url>
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
   <loc>http://okistuff.com/</loc>
-  <changefreq>hourly</changefreq>
-  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://okistuff.com/index.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://okistuff.com/shop.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://okistuff.com/item.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://okistuff.com/about.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://okistuff.com/howto.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://okistuff.com/contact.php</loc>
-  <changefreq>hourly</changefreq>
-  <priority>0.80</priority>
 </url>
 </urlset>
