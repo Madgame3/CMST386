@@ -179,7 +179,7 @@ section #item-paragraph{
   height: 300px;
 }
 #index-page{
-  min-height: 100vh;
+  min-height: 70vh;
   max-height: 300vh;
 }
 .item-box-title{

@@ -7,7 +7,7 @@
       require 'nav.php';
       require 'container.php';
    ?>
-   <section>
+   <section id="index-page">
      <h1>Category</h1>
      <hr>
      <ul>
