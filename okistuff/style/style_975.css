@@ -22,7 +22,7 @@ section{
 .php_large_only{
   display: none;
 }
-#about-text{
+.about-text{
   text-align: left;
   font-size: 2.25vw;
   padding: 15px;
