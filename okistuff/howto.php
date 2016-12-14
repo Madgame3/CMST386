@@ -9,7 +9,7 @@
    ?>
    <section>
     <h1>The Ways Of OkiStuff</h1>
-    <p>OkiStuff is a local, free place to buy and sell stuff from your neighbors. The setup is similar to Craigslist, but more local (just your community), and more family friendly. Buyers and sellers meet in-person and exchange money and stuff directly. No shipping, no fees, no difficulties.<br>
+    <p class="howto-text">OkiStuff is a local, free place to buy and sell stuff from your neighbors. The setup is similar to Craigslist, but more local (just your community), and more family friendly. Buyers and sellers meet in-person and exchange money and stuff directly. No shipping, no fees, no difficulties.<br>
     </p>
       <p><strong>How do I buy stuff from OkiStuff?</strong><br>
       Browse by category<br>
