@@ -8,35 +8,34 @@
       require 'container.php';
    ?>
    <section id="index-page">
-     <h1>Categories</h1>
+     <h1>New Items</h1>
      <hr>
-     <div id="item-flex-box">
-       <div class="category-box"><a href="#">Clothing & Accessories
-         <img src="./images/clothing.jpg" alt="clothing">
-       </a></div>
-       <div class="category-box"><a href="#">Crafts & Tools
-         <img src="./images/tools.jpg" alt="tools">
-       </a></div>
-       <div class="category-box"><a href="#">Electronics
-         <img src="./images/electronics.jpg" alt="electronics">
-       </a></div>
-       <div class="category-box"><a href="#">Hobbies & Sports
-         <img src="./images/sports.jpg" alt="sports">
-       </a></div>
-       <div class="category-box"><a href="#">Home & Living
-         <img src="./images/home.jpg" alt="home">
-       </a></div>
-       <div class="category-box"><a href="#">Kids & Baby
-       <img src="./images/baby.jpg" alt="baby"></a></div>
-       <div class="category-box"><a href="#">Pets
-         <img src="./images/pet.jpg" alt="pet">
-       </a></div>
-       <div class="category-box"><a href="#">Business & Services
-         <img src="./images/business.jpg" alt="business">
-       </a></div>
-       <div class="category-box"><a href="#">Vehicles
-       <img src="./images/vehicles.jpg" alt="car"></a></div>
-     </div>
+    <div id="item-flex-box">
+      <?php
+        require 'connect.php';
+        $sql = "select title,price,date,image from items order by date desc limit 16";
+        $result = $conn->query($sql);
+        if($result->num_rows > 0){
+          while($row = $result->fetch_assoc()){
+            $image = base64_encode($row['image']);
+            if($image == NULL){
+                Echo "THIS ISN'T GOING TO Work";
+              }
+            else{
+              echo "<div class='item-box'>";
+              echo "<div class='item-box-title'>".$row['title']."</div>";
+              echo "<div class='item-box-image'>";
+              echo "<img src='data:image/png;base64,". $image ."' alt='item for sale'/>"."</div>";
+              echo "<div class='item-box-time'><p> Price: ".$row['price']."</p></div>";
+              echo "</div>";
+            }
+            //"<img src='data:image/jpeg;base64',". base64_encode(stream_get_contents($row['image']))."/>";
+          }
+        }
+        mysqli_close($conn);
+       ?>
+
+    </div>
    </section>
    <?php
       require 'footer.php';
