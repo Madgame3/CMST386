@@ -24,8 +24,6 @@
        echo "file type: " . $_FILES['image']['type'];
        echo "size: ". $_FILES['image']['size'];
        echo "error codes". $_FILES['image']['error'];
-       echo "location on server". $_FILES['image']['tmp_name'];
-
 
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
        if ($conn->query($sql) === TRUE) {
