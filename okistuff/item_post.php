@@ -46,7 +46,9 @@
        } else {
            echo "Error: " . $sql . "<br>" . $conn->error . $sql->error;
        }
-       echo '<img src="data:image/jpeg;base64,'.base64_encode($image).'"/>';
+       $aExtraInfo = getimagesize($_FILES['image']['tmp_name']);
+       $sImage = "data:" . $aExtraInfo["mime"] . ";base64," . base64_encode(file_get_contents($_FILES['image']['tmp_name']));
+       echo '<p>The image has been uploaded successfully</p><p>Preview:</p><img src="' . $sImage . '" alt="Your Image" />';
        echo "<br>"."Origninal Name: " . $_FILES['image']['name'] . "<br>";
        echo "file type: " . $_FILES['image']['type'] . "<br>";
        echo "size: ". $_FILES['image']['size'] . "<br>";
