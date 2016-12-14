@@ -52,7 +52,7 @@
        } else {
            echo "Error: " . $sql . "<br>" . $conn->error . $sql->error;
        }
-       echo echo '<img src="data:image/jpeg;base64,'.base64_encode( $_FILES['image']['tmp_name']).'"/>'."<br>";
+       echo '<img src="data:image/jpeg;base64,'.base64_encode( $_FILES['image']['tmp_name']).'"/>'."<br>";
        echo "Origninal Name: " . $_FILES['image']['name'] . "<br>";
        echo "file type: " . $_FILES['image']['type'] . "<br>";
        echo "size: ". $_FILES['image']['size'] . "<br>";
