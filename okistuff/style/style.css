@@ -193,5 +193,8 @@ section #item-paragraph{
 width: 100%;
 }
 .item-box-time{
-
+}
+.category-box{
+  height: 100px;
+  width: 100px;
 }
