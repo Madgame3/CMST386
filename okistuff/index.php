@@ -19,7 +19,7 @@
           while($row = $result->fetch_assoc()){
             $image = base64_encode($row['image']);
             $date1 = time();
-            $date2 = $row['date'];
+            $date2 = strtotime($row['date']);
             $hours = function dateDifference($date1 , $date2 , $differenceFormat = '%h' ){
                 $datetime1 = date_create($date1);
                 $datetime2 = date_create($date2);
