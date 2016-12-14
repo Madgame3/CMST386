@@ -155,6 +155,7 @@ section #item-paragraph{
   margin: auto;
 }
 #about-text{
+  display: inline;
   text-align: left;
   font-size: 1.5vw;
   padding: 20px;
