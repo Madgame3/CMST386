@@ -22,7 +22,6 @@
             $date2 = strtotime($row['date']);
             $interval = date_diff($date1, $date2);
             $hour = $interval->format('%h');
-              }
             if($image == NULL){
                 Echo "THIS ISN'T GOING TO Work";
               }
