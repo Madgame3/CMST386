@@ -98,3 +98,6 @@ section #item-paragraph{
   width: 150px;
   height: 200px;
 }
+.item-box-title{
+  font-size: .8em;
+}
