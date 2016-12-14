@@ -28,7 +28,7 @@
        </a></div>
        <div class="category-box"><a href="./category_baby.php">Kids & Baby
        <img src="./images/baby.jpg" alt="baby"></a></div>
-       <div class="category-box"><a href="./category_pet.php">Pets
+       <div class="category-box"><a href="./category_pets.php">Pets
          <img src="./images/pet.jpg" alt="pet">
        </a></div>
        <div class="category-box"><a href="./category_business.php">Business & Services
