@@ -13,7 +13,7 @@
      <br>
      <p id="about-text">
        Honestly, we're really not that interesting, but here are some thing that describe us...oh and by the way who's going to the midnight showing of Starwars?????<br><br>
-       <ul>
+       <ul class="about-text">
          <li>Sure, we love puppies and sunny days and walks on the beach, but our real love is toilet paper.</li>
          <li>I never made a mistake in my life. I thought I did once, but I was wrong.</li>
          <li>Life is like a very long TV show, without a remote control.</li>
