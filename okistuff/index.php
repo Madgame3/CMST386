@@ -18,8 +18,8 @@
         if($result->num_rows > 0){
           while($row = $result->fetch_assoc()){
             echo "title ".$row['title'];
-            echo "category: ".$row['category'];
-            echo "description: ".$row['description'];
+            echo "category: ".$row['category']."<br><br>";
+
           }
         }
         mysqli_close($conn);
