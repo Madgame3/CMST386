@@ -17,7 +17,7 @@
         $result = $conn->query($sql);
         if($result->num_rows > 0){
           while($row = $result->fetch_assoc()){
-            $image = stripslashes($row['image']);
+            $image = base64_encode($row['image']);
             if($image == NULL){
                 Echo "THIS ISN'T GOING TO Work";
               }
