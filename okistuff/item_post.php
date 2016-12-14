@@ -48,7 +48,7 @@
        }
        $aExtraInfo = getimagesize($_FILES['image']['tmp_name']);
        $sImage = "data:" . $aExtraInfo["mime"] . ";base64," . base64_encode(file_get_contents($_FILES['image']['tmp_name']));
-       echo '<p>The image has been uploaded successfully</p><p>Preview:</p><img src="' . $sImage . '" alt="Your Image" />';
+       echo '<p>The image has been uploaded successfully</p><p>Preview:</p><img src="' . $sImage . '" alt="Your Image" width="50%" />';
        echo "<br>"."Origninal Name: " . $_FILES['image']['name'] . "<br>";
        echo "file type: " . $_FILES['image']['type'] . "<br>";
        echo "size: ". $_FILES['image']['size'] . "<br>";
