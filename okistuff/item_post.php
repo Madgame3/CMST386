@@ -20,10 +20,10 @@
        $description = mysqli_real_escape_string($conn, $_POST['description']);
        $image = addslashes(file_get_contents($_FILES['image']['tmp_name']));
 
-       echo "Origninal Name: " . $_FILES['image']['name'];
-       echo "file type: " . $_FILES['image']['type'];
-       echo "size: ". $_FILES['image']['size'];
-       echo "error codes". $_FILES['image']['error'];
+       echo "Origninal Name: " . $_FILES['image']['name'] . "<br>";
+       echo "file type: " . $_FILES['image']['type'] . "<br>";
+       echo "size: ". $_FILES['image']['size'] . "<br>";
+       echo "error codes: ". $_FILES['image']['error'] . "<br>";
 
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
        if ($conn->query($sql) === TRUE) {
