@@ -4,7 +4,7 @@
   </div>
   <div class="inner-search">
     <form role="search" action="search.php" method="post">
-      <input type="text" placeholder="Search">
+      <input type="text" name="search" placeholder="Search">
       <button type="submit">Submit</button>
     </form>
   </div> <!--inner-search-->
