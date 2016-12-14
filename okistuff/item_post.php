@@ -18,7 +18,7 @@
        $price = mysqli_real_escape_string($conn, $_POST['price']);
        $category = mysqli_real_escape_string($conn, $_POST['category']);
        $description = mysqli_real_escape_string($conn, $_POST['description']);
-       $bigimage = addslashes(file_get_contents($_FILES['image']['tmp_name']));
+       $image = addslashes(file_get_contents($_FILES['image']['tmp_name']));
        $image = imagecreatefromstring(base64_encode($image));
        $image = imagescale($image,500);
        $image = addslashes(file_get_contents($image));
