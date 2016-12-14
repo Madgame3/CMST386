@@ -195,12 +195,14 @@ width: 100%;
 .item-box-time{
 }
 .category-box{
+
   height: 200px;
   width: 200px;
   background-color: white;
   margin: 10px;
 }
 .category-box img{
-  width: 85%;
+  max-width: 85%;
+  max-height: 85%;
   margin: auto;
 }
