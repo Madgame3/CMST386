@@ -7,10 +7,9 @@
       require 'nav.php';
       require 'container.php';
    ?>
-   <article>
-     <h1>
-       New Items
-     </h1>
+   <section>
+     <h1>Category</h1>
+     <hr>
      <ul>
      <li><a href="#">Clothing & Accessories</a></li>
      <li><a href="#">Crafts & Tools</a></li>
@@ -22,6 +21,9 @@
      <li><a href="#">Business & Services</a></li>
      <li><a href="#">Vehicles</a></li>
      </ul>
-   </article>
+   </section>
+   <?php
+      require 'footer.php';
+    ?>
  </body>
 </html>
