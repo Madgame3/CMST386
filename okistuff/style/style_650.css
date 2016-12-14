@@ -57,6 +57,9 @@ a{
 section{
     width: 100%;
 }
+section h1{
+  font-size: 5vw;
+}
 footer .navbar ul{
   display: none;
 }
