@@ -195,11 +195,11 @@ width: 100%;
 .item-box-time{
 }
 .category-box{
-
   height: 200px;
   width: 200px;
   background-color: white;
   margin: 10px;
+  font-size: 1.3em;
 }
 .category-box img{
   max-width: 85%;
