@@ -10,6 +10,9 @@
    <section>
      <h1>About Us</h1>
      <strong>SURE, WE LOVE PUPPIES AND SUNNY DAYS AND WALKS ON THE BEACH, BUT OUR REAL LOVE IS TOILET PAPER. WHY, YOU MIGHT ASK?</strong>
+     <strong>I never made a mistake in my life. I thought I did once, but I was wrong. - http://coolfunnyquotes.com </strong>
+     <strong>Life is like a very long TV show, without a remote control. - http://coolfunnyquotes.com </strong>
+     <strong>Math is fun, it teaches you life and death information, like when you're cold, you should go to a corner since it's 90 degrees there.</strong>
     </section>
    <?php
       require 'footer.php';
