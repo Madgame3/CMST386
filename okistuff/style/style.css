@@ -186,11 +186,11 @@ section #item-paragraph{
 
 }
 .item-box-image{
-  width: 100%;
+
 
 }
 .item-box-image img{
-
+width: 100%;
 }
 .item-box-time{
 
