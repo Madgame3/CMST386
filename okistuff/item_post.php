@@ -27,8 +27,8 @@
            <tr>
            <th>Title</th>
            <th>Category</th>
-           <th>description</th>
-           <th>Name</th>
+           <th class="php_large_only">description</th>
+           <th class="php_large_only">Name</th>
            <th>email</th>
            <th>phone</th>
            <th>price</th>
@@ -36,8 +36,8 @@
            echo "<tr>";
            echo "<td>" . $_POST['title'] . "</td>";
            echo "<td>" . $_POST['category'] . "</td>";
-           echo "<td>" . $_POST['description'] . "</td>";
-           echo "<td>" . $_POST['contact_name'] . "</td>";
+           echo "<td class="php_large_only">" . $_POST['description'] . "</td>";
+           echo "<td class="php_large_only">" . $_POST['contact_name'] . "</td>";
            echo "<td>" . $_POST['email'] . "</td>";
            echo "<td>" . $_POST['phone'] . "</td>";
            echo "<td>" . $_POST['price'] . "</td>";

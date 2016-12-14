@@ -19,3 +19,6 @@ section{
   width: 80%;
   margin: auto;
 }
+.php_large_only{
+  display: none;
+}
