@@ -3,7 +3,7 @@
     <p>OkiStuff, helping you find whatever you need, whenever you need it!</p>
   </div>
   <div class="inner-search">
-    <form role="search" action="" method="post">
+    <form role="search" action="index.php" method="post">
       <input type="text" placeholder="Search">
       <button type="submit">Submit</button>
     </form>
