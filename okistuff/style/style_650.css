@@ -91,3 +91,10 @@ section #item-paragraph{
 .php_large_only{
   display: none;
 }
+.item-box{
+  border: 1px solid black;
+  padding:5px;
+  margin: 5px;
+  width: 150px;
+  height: 150px;
+}
