@@ -200,3 +200,7 @@ width: 100%;
   background-color: white;
   margin: 10px;
 }
+.category-box img{
+  width: 85%;
+  margin: auto;
+}
