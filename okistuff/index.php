@@ -22,7 +22,6 @@
             echo "<div class='item-box-image'>".'<img src="' .$blank. '" alt="Your Image" " />'."</div>";
             echo "<div class='item-box-time'>".$row['date']."</div>";
             echo "</div>";
-
           }
         }
         mysqli_close($conn);
