@@ -83,9 +83,7 @@ section{
   border: 1px solid black;
   background: #f1f1f1;
 }
-#index-page{
-  height: 150vh;
-}
+
 section h1{
   color: #F56400;
   font-size: 3em;
@@ -178,4 +176,8 @@ section #item-paragraph{
   margin: 5px;
   width: 300px;
   height: 300px;
+}
+#index-page{
+  min-height: 150vh;
+  max-height: 300vh;
 }
