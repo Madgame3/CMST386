@@ -10,17 +10,17 @@
    <section id="index-page">
      <h1>Category</h1>
      <hr>
-     <ul>
-     <li><a href="#">Clothing & Accessories</a></li>
-     <li><a href="#">Crafts & Tools</a></li>
-     <li><a href="#">Electronics</a></li>
-     <li><a href="#">Entertainment</a></li>
-     <li><a href="#">Home & Living</a></li>
-     <li><a href="#">Kids & Baby</a></li>
-     <li><a href="#">Pets</a></li>
-     <li><a href="#">Business & Services</a></li>
-     <li><a href="#">Vehicles</a></li>
-     </ul>
+     <div>
+       <div class="category-box"><a href="#">Clothing & Accessories</a></div>
+       <div class="category-box"><a href="#">Crafts & Tools</a></div>
+       <div class="category-box"><a href="#">Electronics</a></div>
+       <div class="category-box"><a href="#">Entertainment</a></div>
+       <div class="category-box"><a href="#">Home & Living</a></div>
+       <div class="category-box"><a href="#">Kids & Baby</a></div>
+       <div class="category-box"><a href="#">Pets</a></div>
+       <div class="category-box"><a href="#">Business & Services</a></div>
+       <div class="category-box"><a href="#">Vehicles</a></div>
+     </div>
    </section>
    <?php
       require 'footer.php';
