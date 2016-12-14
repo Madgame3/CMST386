@@ -178,6 +178,6 @@ section #item-paragraph{
   height: 300px;
 }
 #index-page{
-  min-height: 150vh;
+  min-height: 100vh;
   max-height: 300vh;
 }
