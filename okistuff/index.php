@@ -19,7 +19,7 @@
           while($row = $result->fetch_assoc()){
             echo "<div class='item-box'>";
             echo "<div class='item-box-title'>".$row['title']."</div>";
-            echo "div class='item-box-image'>".'<img src="' .$blank. '" alt="Your Image" " />'."</div>";
+            echo "<div class='item-box-image'>".'<img src="' .$blank. '" alt="Your Image" " />'."</div>";
             echo "<div class='item-box-time'>".$row['date']."</div>";
             echo "</div>";
 
