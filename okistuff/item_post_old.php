@@ -18,10 +18,7 @@
        $price = mysqli_real_escape_string($conn, $_POST['price']);
        $category = mysqli_real_escape_string($conn, $_POST['category']);
        $description = mysqli_real_escape_string($conn, $_POST['description']);
-       $bigimage = addslashes(file_get_contents($_FILES['image']['tmp_name']));
-       $image = imagecreatefromstring(base64_decode($image));
-       $image = imagescale($image,500);
-       $image = addslashes(file_get_contents($image))
+       $image = addslashes(file_get_contents($_FILES['image']['tmp_name']));
 
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
        if ($conn->query($sql) === TRUE) {
@@ -47,8 +44,9 @@
        } else {
            echo "Error: " . $sql . "<br>" . $conn->error . $sql->error;
        }
-       $display_image = base64_encode($image);
-       echo "<img src='data:image/png;base64,". $display_image ."' alt='item for sale' class='php_image'/>";
+       $aExtraInfo = getimagesize($_FILES['image']['tmp_name']);
+       $sImage = "data:" . $aExtraInfo["mime"] . ";base64," . base64_encode(file_get_contents($_FILES['image']['tmp_name']));
+       echo '<img src="' . $sImage . '" alt="Your Image" class="php_image" />';
       mysqli_close($conn);
       ?>
    </section>
