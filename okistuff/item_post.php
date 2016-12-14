@@ -20,10 +20,11 @@
        $description = mysqli_real_escape_string($conn, $_POST['description']);
        $uploadedimage = $_FILES['image']['tmp_name']);
 
-       //Recieve and Manipulate
+       /*Recieve and Manipulate
        $folder = "./uploads/images/";
        move_uploaded_file($_FILES[" image1 "][" tmp_name "], "$folder".$_FILES[" image1 "][" name "]);
        $file = $folder.$_FILES[" image1 "][" name "]
+       */
 
        $sql = "INSERT INTO items (title, image, category, description, contact_name, email, phone, price) VALUES ('$title','$image','$category','$description','$contact_name','$email','$phone','$price')";
        if ($conn->query($sql) === TRUE) {
@@ -51,7 +52,7 @@
        } else {
            echo "Error: " . $sql . "<br>" . $conn->error . $sql->error;
        }
-       echo echo '<img src="data:image/jpeg;base64,'.base64_encode( $result['image'] ).'"/>'."<br>";
+       echo echo '<img src="data:image/jpeg;base64,'.base64_encode( $_FILES['image']['tmp_name']).'"/>'."<br>";
        echo "Origninal Name: " . $_FILES['image']['name'] . "<br>";
        echo "file type: " . $_FILES['image']['type'] . "<br>";
        echo "size: ". $_FILES['image']['size'] . "<br>";
