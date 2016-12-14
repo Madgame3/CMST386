@@ -46,6 +46,7 @@
        } else {
            echo "Error: " . $sql . "<br>" . $conn->error . $sql->error;
        }
+       echo "<br>".'<img src="data:image/jpeg;base64,'.base64_encode($image).'"/>';
 
        echo "<br>"."Origninal Name: " . $_FILES['image']['name'] . "<br>";
        echo "file type: " . $_FILES['image']['type'] . "<br>";
