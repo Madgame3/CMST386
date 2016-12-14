@@ -68,3 +68,10 @@ footer .navbar ul{
   width: 100%;
   margin: auto;
 }
+.php_table{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: auto;
+  background-color: white;
+}
