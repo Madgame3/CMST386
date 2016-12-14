@@ -10,7 +10,7 @@
    <section>
      <h1>Search</h1>
      <hr>
-     <p class=".about-text">Feature Coming Soon</p>
+     <p class="about-text">No Results, Please try again</p>
 
    </section>
    <?php
