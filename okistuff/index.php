@@ -7,7 +7,7 @@
       require 'nav.php';
       require 'container.php';
    ?>
-   <section>
+   <section id="index-page">
      <h1>New Items</h1>
      <hr>
     <div id="item-flex-box">
