@@ -11,7 +11,7 @@
      <h1>About Us</h1>
      <hr>
      <br>
-     <p id="about-text">
+     <p class="about-text">
        Honestly, we're really not that interesting, but here are some thing that describe us...oh and by the way who's going to the midnight showing of Starwars?????<br><br>
        <ul class="about-text">
          <li><p class="about-text">Sure, we love puppies and sunny days and walks on the beach, but our real love is toilet paper.</p></li>
