@@ -18,8 +18,9 @@
         if($result->num_rows > 0){
           while($row = $result->fetch_assoc()){
             echo "<div class='item-box'>";
-            echo "title ".$row['title'];
-            echo "category: ".$row['category'];
+            echo "<div class='item-box-title'>".$row['title']."</div>";
+            echo "div class='item-box-image'>".'<img src="' .$blank. '" alt="Your Image" " />'."</div>";
+            echo "<div class='item-box-time'>".$row['date']."</div>";
             echo "</div>";
 
           }
