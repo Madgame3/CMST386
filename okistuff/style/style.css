@@ -173,7 +173,7 @@ section #item-paragraph{
 .item-box{
   border: 1px solid black;
   padding:5px;
-  margin: 5px;
+  margin: 10px;
   width: 300px;
   height: 300px;
 }
