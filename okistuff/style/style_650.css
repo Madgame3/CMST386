@@ -60,3 +60,7 @@ section{
 footer .navbar ul{
   display: none;
 }
+.php_image{
+  margin-top: 10px;
+  width: 350px;
+}

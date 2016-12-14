@@ -48,7 +48,7 @@
        }
        $aExtraInfo = getimagesize($_FILES['image']['tmp_name']);
        $sImage = "data:" . $aExtraInfo["mime"] . ";base64," . base64_encode(file_get_contents($_FILES['image']['tmp_name']));
-       echo '<img src="' . $sImage . '" alt="Your Image" height="40%" />';
+       echo '<img src="' . $sImage . '" alt="Your Image" class="php_image" />';
       mysqli_close($conn);
       ?>
    </section>

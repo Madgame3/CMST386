@@ -141,4 +141,8 @@ section #item-paragraph{
   border-color: rgba(0, 0, 0, 0.1);
   color: #FFF;
   margin-bottom:3vh;
-  }
+}
+.php_image{
+  margin-top: 10px;
+  width: 40%;
+}
