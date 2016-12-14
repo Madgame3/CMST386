@@ -170,7 +170,7 @@ section #item-paragraph{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .item-box{
   border: 1px solid black;
