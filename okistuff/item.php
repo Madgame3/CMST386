@@ -41,7 +41,7 @@
                    <option value="Clothing & Accessories">Clothing & Accessories</option>
                    <option value="Crafts & Tools">Crafts & Tools</option>
                    <option value="Electronics">Electronics</option>
-                   <option value="Entertainment">Entertainment</option>
+                   <option value="Hobbies & Sports">Hobbies & Sports</option>
                    <option value="Home & Living">Home & Living</option>
                    <option value="Kids & Baby">Kids & Baby</option>
                    <option value="Pets">Pets</option>
