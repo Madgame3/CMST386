@@ -13,7 +13,7 @@
     <div id="item-flex-box">
       <?php
         require 'connect.php';
-        $sql = "select title,category,description,contact_name,phone,price,date from items order by date desc limit 30";
+        $sql = "select title,category,description,contact_name,phone,price,date from items order by date desc limit 16";
         $result = $conn->query($sql);
         if($result->num_rows > 0){
           while($row = $result->fetch_assoc()){
