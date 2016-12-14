@@ -75,7 +75,8 @@ section{
   margin-top: 2vh;
   margin-bottom: 2vh;
   width:85vw;
-  height: 75vh;
+  max-height: 125vh;
+  min-height: 75vh;
   text-align: center;
   background-color: white;
   border: 1px solid black;
@@ -145,4 +146,5 @@ section #item-paragraph{
 .php_image{
   margin-top: 10px;
   width: 40%;
+
 }
