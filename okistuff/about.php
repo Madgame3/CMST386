@@ -8,7 +8,7 @@
       require 'container.php';
    ?>
    <section>
-     <h1>About Us</h1>
+     <h1>About Us - Funny???</h1>
      <strong>SURE, WE LOVE PUPPIES AND SUNNY DAYS AND WALKS ON THE BEACH, BUT OUR REAL LOVE IS TOILET PAPER. WHY, YOU MIGHT ASK?</strong><br><br>
      <strong>I never made a mistake in my life. I thought I did once, but I was wrong.  </strong><br><br>
      <strong>Life is like a very long TV show, without a remote control. </strong><br><br>
