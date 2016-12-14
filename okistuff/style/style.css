@@ -153,3 +153,6 @@ section #item-paragraph{
   width: 50%;
   margin: auto;
 }
+#about-text{
+  text-align: left;
+}
