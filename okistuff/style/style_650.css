@@ -45,12 +45,12 @@ a{
 .inner-search input{
     box-sizing: border-box;
     width: 75%;
-    height: 3vh;
+    height: 5vh;
     border: 2px solid rgb(245,100,0);
   }
 .inner-search button{
   background-color: #F56400;
-  height: 3vh;
+  height: 5vh;
   border-color: rgba(0, 0, 0, 0.1);
   color: #FFF;
 }
