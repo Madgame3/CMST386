@@ -191,6 +191,9 @@ section #item-paragraph{
 }
 .item-box-image img{
 width: 100%;
+max-width: 100%;
+max-height: 90%;
+overflow: hidden;
 }
 .item-box-time{
 }
