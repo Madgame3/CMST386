@@ -104,3 +104,10 @@ section #item-paragraph{
 .item-box-time{
   font-size: .8em;
 }
+
+.item-box-image{
+  overflow: hidden;
+  width: 100%;
+  height: 65%;
+  margin-top: 5px;
+}
