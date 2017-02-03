@@ -15,11 +15,11 @@
          <p>We hope your expierence has been a positive one, but if it hasn't please let us know about it and what we can do to help, thank you.</p>
          <strong>Top 5 Comments</strong>
          <ol>
-           <li>Why are you so Awesome?</li>
-           <li>How can I be more like you?</li>
-           <li>OkiStuff rocks!!</li>
-           <li>Super Awesome!</li>
-           <li>Literally nothing works on this stupid site</li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
          </ol>
        </div>
        <div class="flex-box">
