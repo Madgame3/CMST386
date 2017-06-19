@@ -10,8 +10,5 @@
   <link rel="stylesheet" media="screen and (max-width:975px)" href="./style/style_975.css">
   <link rel="stylesheet" media="screen and (max-width:650px)" href="./style/style_650.css">
   <link rel="icon" href="./images/favicon.png">
-  <?php
-    require login.php;
-  ?>
   <title>OkiStuff.com</title>
 </head>
