@@ -22,7 +22,7 @@ try {
 if (isset($accessToken)) {
   // Logged in!
   $_SESSION['facebook_access_token'] = (string) $accessToken;
-  echo "logged in";
+  echo 'logged in';
   // Now you can redirect to another page and use the
   // access token from $_SESSION['facebook_access_token']
   #header('Location: http://okistuff.com/index.php');    
