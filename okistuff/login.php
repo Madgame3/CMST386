@@ -12,7 +12,7 @@
         ]);
 
     $helper = $fb->getRedirectLoginHelper();
-    $permissions = ['email', 'user_likes']; // optional
+    $permissions = ['email', 'user_friends', 'public_profile']; // optional
     $loginUrl = $helper->getLoginUrl('http://okistuff.com/login-callback.php', $permissions);
     echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
 
