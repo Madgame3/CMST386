@@ -7,4 +7,6 @@ $fb = new Facebook\Facebook([
     'default_graph_version' => 'v2.9',
 ]);
 echo 'can I see this';
+$helper = $fb->getRedirectLoginHelper();
+echo $helper;
 ?>
