@@ -23,7 +23,8 @@
     // Logged in!
     $_SESSION['facebook_access_token'] = (string) $accessToken;
 
-    // Now you can redirect to another page and use the
-    // access token from $_SESSION['facebook_access_token']
-}
+    // User is logged in with a long-lived access token.
+    // You can redirect them to a members-only page.
+    header('Location: http://okistuff.com');
+1}
 ?>
