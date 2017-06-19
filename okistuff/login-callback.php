@@ -1,4 +1,3 @@
-# login-callback.php
 <?php
 session_start();
 require_once __DIR__ . '/vendor/autoload.php';
@@ -23,12 +22,12 @@ try {
 if (isset($accessToken)) {
   // Logged in!
   $_SESSION['facebook_access_token'] = (string) $accessToken;
+  echo "logged in";
   // Now you can redirect to another page and use the
   // access token from $_SESSION['facebook_access_token']
-  header('Location: index.php');    
+  header('Location: /index.php');    
 } elseif ($helper->getError()) {
   // The user denied the request
   exit;
 }
-
 ?>
