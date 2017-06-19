@@ -22,11 +22,10 @@ session_start();
     if (isset($accessToken)) {
     // Logged in!
     $_SESSION['facebook_access_token'] = (string) $accessToken;
-
     // Now you can redirect to another page and use the
     // access token from $_SESSION['facebook_access_token']
+    echo 'Hello!! Welcome to my Web App'
     } elseif ($helper->getError()) {
     // The user denied the request
-    exit;
-}
+    }
 ?>
