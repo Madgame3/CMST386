@@ -6,7 +6,6 @@ $fb = new Facebook\Facebook([
     'app_secret' => '517e3fdc7744d5b80c352ea17b6b95db',
     'default_graph_version' => 'v2.9',
 ]);
-echo 'can I see this';
 $helper = $fb->getRedirectLoginHelper();
 try {
   $accessToken = $helper->getAccessToken();
