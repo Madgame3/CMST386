@@ -1,14 +1,11 @@
 <?php
-    
-    session_start();
-    require_once __DIR__ . '/vendor/autoload.php';
     $fb = new Facebook\Facebook([
         'app_id' => '839841886165025',
         'app_secret' => '517e3fdc7744d5b80c352ea17b6b95db',
         'default_graph_version' => 'v2.9',
     ]);
 
-    $helper = $fb->getRedirectLoginHelper();
+   $helper = $fb->getRedirectLoginHelper();
     try {
     $accessToken = $helper->getAccessToken();
     } catch(Facebook\Exceptions\FacebookResponseException $e) {
@@ -25,9 +22,10 @@
     // Logged in!
     $_SESSION['facebook_access_token'] = (string) $accessToken;
 
-    // User is logged in with a long-lived access token.
-    // You can redirect them to a members-only page.
-    header('Location: http://okistuff.com/index.php');
-    exit();
-    }
+    // Now you can redirect to another page and use the
+    // access token from $_SESSION['facebook_access_token']
+    } elseif ($helper->getError()) {
+    // The user denied the request
+    exit;
+}
 ?>
