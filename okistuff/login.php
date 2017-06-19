@@ -3,7 +3,7 @@
        # a. Start session
             session_start();
         # b. Include the auto load file
-            require_once __DIR__.'../../vendor/autoload.php';
+            require_once __DIR__ . '/vendor/autoload.php';
         # c. Facebook Object with parameters 
         $fb = new Facebook\Facebook([
             'app_id' => '839841886165025',
@@ -12,21 +12,6 @@
         ]);
 
     $helper = $fb->getRedirectLoginHelper();
-
-try {
-  // Get the \Facebook\GraphNodes\GraphUser object for the current user.
-  // If you provided a 'default_access_token', the '{access-token}' is optional.
-  $response = $fb->get('/me', '{access-token}');
-} catch(\Facebook\Exceptions\FacebookResponseException $e) {
-  // When Graph returns an error
-  echo 'Graph returned an error: ' . $e->getMessage();
-  exit;
-} catch(\Facebook\Exceptions\FacebookSDKException $e) {
-  // When validation fails or other local issues
-  echo 'Facebook SDK returned an error: ' . $e->getMessage();
-  exit;
-}
-
-$me = $response->getGraphUser();
-echo 'Logged in as ' . $me->getName();
+    $permissions = ['email', 'user_likes']; // optional
+    $loginUrl = $helper->getLoginUrl('http://okistuff.com/login-callback.php', $permissions);
 ?>
