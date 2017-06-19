@@ -25,7 +25,7 @@ if (isset($accessToken)) {
   echo "logged in";
   // Now you can redirect to another page and use the
   // access token from $_SESSION['facebook_access_token']
-  header('Location: /index.php');    
+  header('Location: http://okistuff.com/index.php');    
 } elseif ($helper->getError()) {
   // The user denied the request
   exit;
