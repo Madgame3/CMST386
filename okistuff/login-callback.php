@@ -25,6 +25,6 @@
 
     // User is logged in with a long-lived access token.
     // You can redirect them to a members-only page.
-    header('Location: https://okistuff.com');
+    header('Location: http://okistuff.com');
     }
 ?>
