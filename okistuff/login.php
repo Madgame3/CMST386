@@ -22,3 +22,8 @@
     echo '<a href="'. htmlspecialchars($loginUrl) .'"> Log in with Facebook!</a>'
     ?>   
 </section>
+   <?php
+      require 'footer.php';
+    ?>
+ </body>
+</html>

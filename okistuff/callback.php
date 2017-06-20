@@ -17,18 +17,19 @@
             'app_secret' => '517e3fdc7744d5b80c352ea17b6b95db',
             'default_graph_version' => 'v2.9',
         ]);
-
+        
         $helper = $fb->getRedirectLoginHelper();
-
+        echo '<h3>Just did Helper on line 21</h3>';
         try {
           $accessToken = $helper->getAccessToken();
+          echo '<h3>trying for access token 24</h3>';
         } catch(Facebook\Exceptions\FacebookResponseException $e) {
           // When Graph returns an error
-          echo 'Graph returned an error: ' . $e->getMessage();
+          echo '<h3>Graph returned an error: ' . $e->getMessage() . '</h3>';
           exit;
         } catch(Facebook\Exceptions\FacebookSDKException $e) {
           // When validation fails or other local issues
-          echo 'Facebook SDK returned an error: ' . $e->getMessage();
+          echo '<h3>Facebook SDK returned an error: ' . $e->getMessage() . '</h3>';
           exit;
         }
         if (! isset($accessToken)) {
@@ -82,3 +83,8 @@
         //header('Location: https://example.com/members.php');
   ?>   
 </section>
+   <?php
+      require 'footer.php';
+    ?>
+ </body>
+</html>
