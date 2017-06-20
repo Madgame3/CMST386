@@ -1,15 +1,23 @@
+
 <?php
-    #1. Installation
-       # a. Start session
-            session_start();
-        # b. Include the auto load file
-            require_once __DIR__ . '/vendor/autoload.php';
-        # c. Facebook Object with parameters 
-        $fb = new Facebook\Facebook([
-            'app_id' => '839841886165025',
-            'app_secret' => '517e3fdc7744d5b80c352ea17b6b95db',
-            'default_graph_version' => 'v2.9',
-        ]);
+  require 'head.php';
+ ?>
+ <body>
+   <?php
+      require 'header.php';
+      require 'nav.php';
+      require 'container.php';
+   ?>
+<section>
+    <?php
+    # b. Include the auto load file
+        require_once __DIR__ . '/vendor/autoload.php';
+    # c. Facebook Object with parameters 
+    $fb = new Facebook\Facebook([
+        'app_id' => '839841886165025',
+        'app_secret' => '517e3fdc7744d5b80c352ea17b6b95db',
+        'default_graph_version' => 'v2.9',
+    ]);
 
     $helper = $fb->getRedirectLoginHelper();
     $permissions = ['email', 'user_friends', 'public_profile']; // optional
@@ -70,5 +78,6 @@
         // replace your website URL same as added in the developers.facebook.com/apps e.g. if you used http instead of https and you used non-www version or www version of your website then you must add the same here
         $loginUrl = $helper->getLoginUrl('http://okistuff.com', $permissions);
         echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
-}
-?>
+    }
+    ?>   
+</section>
