@@ -9,6 +9,7 @@
       require 'container.php';
    ?>
 <section>
+  <h1>Test</h1>
     <?php
         require_once __DIR__ . '/vendor/autoload.php';
         $fb = new Facebook\Facebook([
