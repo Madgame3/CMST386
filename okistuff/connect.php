@@ -1,6 +1,6 @@
 <?php
   $db_host = "localhost";
-  $db_username = "okistuff";
+  $db_username = "okistuff_old";
   $db_pass = "password";
   $db_name = "okistuff";
 
